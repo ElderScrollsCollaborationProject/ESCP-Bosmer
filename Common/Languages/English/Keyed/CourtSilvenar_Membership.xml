@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <ESCP_CourtSilvenar_Enlist_Letter_Title>In the Silvenar's service</ESCP_CourtSilvenar_Enlist_Letter_Title>
+    <ESCP_CourtSilvenar_Enlist_Letter_Label>The colony now serves the Court of the Silvenar. The Spinners have already started telling a story about it.</ESCP_CourtSilvenar_Enlist_Letter_Label>
+    <ESCP_CourtSilvenar_Enlist_Button_Label>Serve the Silvenar</ESCP_CourtSilvenar_Enlist_Button_Label>
+    <ESCP_CourtSilvenar_Enlist_Button_Desc>Offer the colony's service to the Silvenar, the voice of the Bosmer people.</ESCP_CourtSilvenar_Enlist_Button_Desc>
+    <ESCP_CourtSilvenar_Enlist_Requrements_Not_Satisfied>The Court does not know you well. Standing: {0}.</ESCP_CourtSilvenar_Enlist_Requrements_Not_Satisfied>
+    <ESCP_CourtSilvenar_Enlisted_To_Hostile_Faction>The Silvenar will not accept the service of Valenwood's enemies.</ESCP_CourtSilvenar_Enlisted_To_Hostile_Faction>
+    <ESCP_CourtSilvenar_Enlisted_With_Key>Serves the Silvenar</ESCP_CourtSilvenar_Enlisted_With_Key>
+    <ESCP_CourtSilvenar_Missions_Label>Court requests</ESCP_CourtSilvenar_Missions_Label>
+    <ESCP_CourtSilvenar_Missions_Desc>See what the Court has asked for.</ESCP_CourtSilvenar_Missions_Desc>
+    <ESCP_CourtSilvenar_Menu_Missions_Desc>Requests from the Court of the Silvenar. Paid when done.</ESCP_CourtSilvenar_Menu_Missions_Desc>
+    <ESCP_CourtSilvenar_Menu_Missions_Select_Quest>Select a job</ESCP_CourtSilvenar_Menu_Missions_Select_Quest>
+    <ESCP_CourtSilvenar_Menu_Missions_Start_Quest>Accept</ESCP_CourtSilvenar_Menu_Missions_Start_Quest>
+    <ESCP_CourtSilvenar_Menu_Missions_Collect_Bounty>Collect</ESCP_CourtSilvenar_Menu_Missions_Collect_Bounty>
+    <ESCP_CourtSilvenar_Provisions_Label>Share the court's table</ESCP_CourtSilvenar_Provisions_Label>
+    <ESCP_CourtSilvenar_Provisions_Desc>Meat and jagga from the Court's feasts.</ESCP_CourtSilvenar_Provisions_Desc>
+    <ESCP_CourtSilvenar_Storage_Label>Court storeroom</ESCP_CourtSilvenar_Storage_Label>
+    <ESCP_CourtSilvenar_Storage_Desc>Leave goods with the Court's keepers.</ESCP_CourtSilvenar_Storage_Desc>
+    <ESCP_CourtSilvenar_Resign_Menu_Text>Leave the Silvenar's service? The Court will be offended.</ESCP_CourtSilvenar_Resign_Menu_Text>
+    <ESCP_CourtSilvenar_Resign_Letter_Title>Left the Court</ESCP_CourtSilvenar_Resign_Letter_Title>
+    <ESCP_CourtSilvenar_Resign_Letter_Label>The colony has left the Silvenar's service.</ESCP_CourtSilvenar_Resign_Letter_Label>
+    <ESCP_CourtSilvenar_Resign_Button_Label>Leave the Court</ESCP_CourtSilvenar_Resign_Button_Label>
+    <ESCP_CourtSilvenar_Resign_Button_Desc>End your service to the Silvenar.</ESCP_CourtSilvenar_Resign_Button_Desc>
+    <ESCP_CourtSilvenar_Kick_Out_Letter_Title>Dismissed by the Silvenar</ESCP_CourtSilvenar_Kick_Out_Letter_Title>
+    <ESCP_CourtSilvenar_Kick_Out_Label_Title>The Court of the Silvenar has turned the colony away.</ESCP_CourtSilvenar_Kick_Out_Label_Title>
+    <ESCP_CourtSilvenar_Salary_Label>Collect your stipend</ESCP_CourtSilvenar_Salary_Label>
+    <ESCP_CourtSilvenar_Salary_Desc>Coin from the Court's coffers.</ESCP_CourtSilvenar_Salary_Desc>
+    <ESCP_CourtSilvenar_Work_0_Label>Carry messages through the Green</ESCP_CourtSilvenar_Work_0_Label>
+    <ESCP_CourtSilvenar_Work_0_Desc>Run messages between villages hidden deep in the forest.</ESCP_CourtSilvenar_Work_0_Desc>
+    <ESCP_CourtSilvenar_Work_1_Label>Listen to the Spinners</ESCP_CourtSilvenar_Work_1_Label>
+    <ESCP_CourtSilvenar_Work_1_Desc>Sit with the Spinners and learn how the Bosmer tell their stories.</ESCP_CourtSilvenar_Work_1_Desc>
+
+</LanguageData>

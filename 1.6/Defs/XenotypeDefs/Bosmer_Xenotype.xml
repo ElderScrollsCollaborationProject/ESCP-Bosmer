@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <XenotypeDef ParentName="ESCP_BaseXenotype_MerStandardHead">
+        <defName>ESCP_Xenotype_Bosmer</defName>
+        <label>Bosmer</label>
+        <iconPath>UI/Icons/Xenotypes/Baseliner</iconPath>
+        <description>The small, quick mer of Valenwood, bound by the Green Pact never to harm the forest that feeds them. They eat meat and very little else, build in living trees that walk from place to place, and are, by broad agreement, the finest archers in Tamriel. People who find them cheerful should remember what the Meat Mandate permits after a battle.</description>
+        <descriptionShort>Quick forest archers of Valenwood: sure with a bow, friend to beasts.</descriptionShort>
+        <genes>
+            <li>ESCP_Gene_Bosmer_Beast_Tongue</li>
+            <li>ESCP_Gene_Bosmer_Archers_Eye</li>
+            <li>ESCP_Gene_Bosmer_Forest_Stride</li>
+            <li>Skin_Melanin7</li>
+            <li>ToxResist_Partial</li>
+            <li>Beard_NoBeardOnly</li>
+        </genes>
+    </XenotypeDef>
+
+</Defs>

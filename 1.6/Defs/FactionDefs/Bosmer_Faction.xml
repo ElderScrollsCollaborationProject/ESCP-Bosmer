@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <FactionDef ParentName="FactionBase">
+        <defName>ESCP_Faction_Treethanes</defName>
+        <label>Treethanes of Valenwood</label>
+        <description>Valenwood has never really had a government, and the people who come closest are its treethanes, local lords who answer to the Silvenar when they feel they must. They trade, they squabble and they are rarely any trouble, until someone brings axes into the graht-oaks. After that, the arrows start and the forest's own creatures tend to take a side.</description>
+        <colorSpectrum>
+            <li>(0.3, 0.5, 0.2)</li>
+        </colorSpectrum>
+        <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+        <pawnSingular>Bosmer</pawnSingular>
+        <pawnsPlural>Bosmer</pawnsPlural>
+        <categoryTag>Outlander</categoryTag>
+        <settlementGenerationWeight>0.3</settlementGenerationWeight>
+        <requiredCountAtGameStart>1</requiredCountAtGameStart>
+        <canSiege>false</canSiege>
+        <canStageAttacks>true</canStageAttacks>
+        <leaderTitle>Silvenar</leaderTitle>
+        <factionIconPath>World/WorldObjects/Expanding/Empire</factionIconPath>
+        <techLevel>Medieval</techLevel>
+        <fixedName>Treethanes of Valenwood</fixedName>
+        <disallowedMemes>
+            <li MayRequire="Ludeon.RimWorld.Ideology">ESCP_Meme_NineDivines</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">ESCP_Structure_OriginDivinesNine</li>
+        </disallowedMemes>
+        <allowedCultures>
+            <li>ESCP_Culture_Bosmer</li>
+        </allowedCultures>
+
+        <royalTitleTags>
+            <li>ESCP_Title_Bosmer</li>
+        </royalTitleTags>
+        <royalFavorLabel>Pact Standing</royalFavorLabel>
+        <royalTitleInheritanceWorkerClass>RoyalTitleInheritanceWorker</royalTitleInheritanceWorkerClass>
+
+        <fixedIdeo>true</fixedIdeo>
+        <ideoName>The Green Pact</ideoName>
+        <ideoDescription>Every Bosmer is held by the promise Y'ffre extracted when the world was shaped. The Pact forbids harming Valenwood's plants and forbids eating them, and it is kept in the most literal way possible. The Silvenar and the Green Lady embody the bargain, and the Spinners keep it alive by telling it again, slightly differently, every year.</ideoDescription>
+        <deityPresets>
+            <li>
+                <nameType><name>Y'ffre</name><type>Spirit of the Now and god of the forest</type></nameType>
+                <gender>Male</gender>
+                <iconPath>UI/Deities/ESCP_DeityYffre</iconPath>
+            </li>
+            <li>
+                <nameType><name>Auri-El</name><type>Time-Dragon of the elves</type></nameType>
+                <gender>Male</gender>
+                <iconPath>UI/Deities/ESCP_DeityAuriEl</iconPath>
+            </li>
+            <li>
+                <nameType><name>Baan Dar</name><type>the Bandit God and Pariah</type></nameType>
+                <gender>Male</gender>
+                <iconPath>UI/Deities/ESCP_DeityBaanDar</iconPath>
+            </li>
+            <li>
+                <nameType><name>Xarxes</name><type>keeper of the gods' histories</type></nameType>
+                <gender>Male</gender>
+                <iconPath>UI/Deities/ESCP_DeityXarxes</iconPath>
+            </li>
+            <li>
+                <nameType><name>Herma-Mora</name><type>the Woodland Man of the old stories</type></nameType>
+                <gender>Male</gender>
+                <iconPath>UI/Deities/DeityGeneric</iconPath>
+            </li>
+            <li>
+                <nameType><name>Mara</name><type>mother-goddess and love</type></nameType>
+                <gender>Female</gender>
+                <iconPath>UI/Deities/ESCP_DeityMara</iconPath>
+            </li>
+        </deityPresets>
+        <styles>
+            <li>ESCP_Style_Bosmer</li>
+        </styles>
+        <forcedMemes>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">ESCP_Meme_GreenPact</li>
+        </forcedMemes>
+        <requiredPreceptsOnly>true</requiredPreceptsOnly>
+
+        <backstoryFilters>
+            <li>
+                <categories>
+                    <li>ESCP_Backstory_Bosmer_Child</li>
+                    <li>ESCP_Backstory_Bosmer_Citizen</li>
+                    <li>ESCP_Backstory_Bosmer_Military</li>
+                    <li>ESCP_Backstory_Bosmer_Mage</li>
+                </categories>
+            </li>
+        </backstoryFilters>
+
+        <caravanTraderKinds>
+            <li>ESCP_Caravan_Bosmer_Trader</li>
+        </caravanTraderKinds>
+        <visitorTraderKinds>
+            <li>ESCP_Caravan_Bosmer_Trader</li>
+        </visitorTraderKinds>
+        <baseTraderKinds>
+            <li>ESCP_Caravan_Bosmer_Trader</li>
+        </baseTraderKinds>
+
+        <allowedArrivalTemperatureRange>-10~55</allowedArrivalTemperatureRange>
+        <maxPawnCostPerTotalPointsCurve>
+            <points>
+                <li>(0, 35)</li>
+                <li>(70, 50)</li>
+                <li>(700, 100)</li>
+                <li>(1300, 150)</li>
+                <li>(100000, 10000)</li>
+            </points>
+        </maxPawnCostPerTotalPointsCurve>
+
+        <pawnGroupMakers>
+            <li>
+                <kindDef>Combat</kindDef>
+                <options>
+                    <ESCP_Pawnkind_Bosmer_Melee>10</ESCP_Pawnkind_Bosmer_Melee>
+                    <ESCP_Pawnkind_Bosmer_Ranged>12</ESCP_Pawnkind_Bosmer_Ranged>
+                    <ESCP_Pawnkind_Bosmer_Mage>4</ESCP_Pawnkind_Bosmer_Mage>
+                    <ESCP_Pawnkind_Bosmer_Captain>3</ESCP_Pawnkind_Bosmer_Captain>
+                    <ESCP_Pawnkind_Bosmer_Elite>2</ESCP_Pawnkind_Bosmer_Elite>
+                </options>
+            </li>
+            <li>
+                <kindDef>Peaceful</kindDef>
+                <options>
+                    <ESCP_Pawnkind_Bosmer_Citizen>15</ESCP_Pawnkind_Bosmer_Citizen>
+                    <ESCP_Pawnkind_Bosmer_Merchant>6</ESCP_Pawnkind_Bosmer_Merchant>
+                    <ESCP_Pawnkind_Bosmer_Noble>4</ESCP_Pawnkind_Bosmer_Noble>
+                    <ESCP_Pawnkind_Bosmer_Mage>3</ESCP_Pawnkind_Bosmer_Mage>
+                </options>
+            </li>
+            <li>
+                <kindDef>Trader</kindDef>
+                <traders>
+                    <ESCP_Pawnkind_Bosmer_Trader>1</ESCP_Pawnkind_Bosmer_Trader>
+                    <ESCP_Pawnkind_Bosmer_Quartermaster>1</ESCP_Pawnkind_Bosmer_Quartermaster>
+                </traders>
+                <carriers>
+                    <Muffalo>6</Muffalo>
+                    <Dromedary>5</Dromedary>
+                    <Alpaca>3</Alpaca>
+                </carriers>
+                <guards>
+                    <ESCP_Pawnkind_Bosmer_Melee>8</ESCP_Pawnkind_Bosmer_Melee>
+                    <ESCP_Pawnkind_Bosmer_Ranged>5</ESCP_Pawnkind_Bosmer_Ranged>
+                    <ESCP_Pawnkind_Bosmer_Elite>1</ESCP_Pawnkind_Bosmer_Elite>
+                </guards>
+            </li>
+            <li>
+                <kindDef>Settlement</kindDef>
+                <options>
+                    <ESCP_Pawnkind_Bosmer_Citizen>8</ESCP_Pawnkind_Bosmer_Citizen>
+                    <ESCP_Pawnkind_Bosmer_Melee>10</ESCP_Pawnkind_Bosmer_Melee>
+                    <ESCP_Pawnkind_Bosmer_Ranged>8</ESCP_Pawnkind_Bosmer_Ranged>
+                    <ESCP_Pawnkind_Bosmer_Mage>4</ESCP_Pawnkind_Bosmer_Mage>
+                    <ESCP_Pawnkind_Bosmer_Elite>2</ESCP_Pawnkind_Bosmer_Elite>
+                </options>
+            </li>
+        </pawnGroupMakers>
+        <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+
+        <modExtensions Inherit="False">
+            <li Class="ESCP_RaceTools.FactionProperties">
+                <factionTags>
+                    <li>ESCP_Aldmeri</li>
+                    <li>ESCP_GreenPact</li>
+                </factionTags>
+            </li>
+            <li Class="ESCP.Factions.FactionExtension_FlavorOverride">
+                <newLabel>Treethanes of Valenwood</newLabel>
+            </li>
+            <li Class="ESCP.Factions.FactionExtension_BannedArrivalModes">
+                <arrivalModes>
+                    <li>EdgeDrop</li>
+                    <li>EdgeDropGroups</li>
+                    <li>CenterDrop</li>
+                    <li>RandomDrop</li>
+                </arrivalModes>
+            </li>
+        </modExtensions>
+    </FactionDef>
+
+</Defs>

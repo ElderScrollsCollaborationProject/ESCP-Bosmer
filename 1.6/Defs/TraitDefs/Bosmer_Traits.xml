@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <TraitDef>
+        <defName>ESCP_Trait_Bosmer_Greenbound</defName>
+        <commonality>0</commonality>
+        <degreeDatas>
+            <li>
+                <label>greenbound</label>
+                <description>This one holds the Green Pact closely. Plants grow well around them and animals come to them without much coaxing, and they are quietly disgusted at the sight of a sawmill.</description>
+                <statOffsets>
+                    <PlantWorkSpeed>0.15</PlantWorkSpeed>
+                    <TameAnimalChance>0.1</TameAnimalChance>
+                </statOffsets>
+                <skillGains>
+                    <Plants>2</Plants>
+                </skillGains>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+
+    <TraitDef>
+        <defName>ESCP_Trait_Bosmer_Scoutcraft</defName>
+        <commonality>0</commonality>
+        <degreeDatas>
+            <li>
+                <label>Silvenar's scout</label>
+                <description>Trained to cross Valenwood unseen, report what they saw and leave no trace. They shoot straight and walk further than most.</description>
+                <statOffsets>
+                    <ShootingAccuracyPawn>4</ShootingAccuracyPawn>
+                    <MoveSpeed>0.2</MoveSpeed>
+                </statOffsets>
+                <skillGains>
+                    <Shooting>2</Shooting>
+                </skillGains>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+
+    <TraitDef>
+        <defName>ESCP_Trait_Bosmer_Spinner</defName>
+        <commonality>0</commonality>
+        <degreeDatas>
+            <li>
+                <label>Spinner's voice</label>
+                <description>Spinners keep the stories that hold the Bosmer together, and this person has absorbed enough of them to keep any audience awake. People tend to remember what they say.</description>
+                <statOffsets>
+                    <SocialImpact>0.12</SocialImpact>
+                    <GlobalLearningFactor>0.05</GlobalLearningFactor>
+                </statOffsets>
+                <skillGains>
+                    <Social>2</Social>
+                </skillGains>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+
+</Defs>

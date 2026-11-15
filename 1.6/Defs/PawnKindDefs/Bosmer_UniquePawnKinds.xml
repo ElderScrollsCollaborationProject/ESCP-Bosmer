@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <PawnKindDef Name="ESCP_Bosmer_UniqueCharacterBase" ParentName="ESCP_BosmerkindBase" Abstract="true">
+        <showInDebugSpawner>false</showInDebugSpawner>
+        <apparelMoney>9999</apparelMoney>
+        <gearHealthRange>10</gearHealthRange>
+        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+        <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+        <weaponMoney>9999</weaponMoney>
+        <maxGenerationAge>300</maxGenerationAge>
+        <initialWillRange>5~7</initialWillRange>
+        <initialResistanceRange>25~35</initialResistanceRange>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_Bosmer_UniqueCharacterBase">
+        <defName>ESCP_Unique_Pawnkind_Bosmer_Treethane</defName>
+        <label>Treethane of Valenwood</label>
+        <factionLeader>true</factionLeader>
+        <combatPower>230</combatPower>
+        <weaponTags>
+            <li>MedievalMeleeAdvanced</li>
+        </weaponTags>
+        <apparelTags>
+            <li>MedievalBasic</li>
+            <li>MedievalMilitary</li>
+            <li>Cape</li>
+        </apparelTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>ESCP_Backstory_Bosmer_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ESCP_Backstory_Bosmer_Military</li>
+                    <li>ESCP_Backstory_Bosmer_Mage</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <forcedTraits>
+            <ESCP_Trait_Bosmer_Greenbound>0</ESCP_Trait_Bosmer_Greenbound>
+            <ESCP_Trait_Bosmer_Spinner>0</ESCP_Trait_Bosmer_Spinner>
+        </forcedTraits>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_Bosmer_UniqueCharacterBase">
+        <defName>ESCP_Unique_Pawnkind_Bosmer_Silvenar</defName>
+        <label>Silvenar</label>
+        <factionLeader>true</factionLeader>
+        <combatPower>210</combatPower>
+        <weaponTags>
+            <li>MedievalMeleeAdvanced</li>
+        </weaponTags>
+        <apparelTags>
+            <li>MedievalBasic</li>
+            <li>MedievalMilitary</li>
+            <li>Cape</li>
+        </apparelTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>ESCP_Backstory_Bosmer_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ESCP_Backstory_Bosmer_Military</li>
+                    <li>ESCP_Backstory_Bosmer_Mage</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <forcedTraits>
+            <ESCP_Trait_Bosmer_Greenbound>0</ESCP_Trait_Bosmer_Greenbound>
+            <ESCP_Trait_Bosmer_Spinner>0</ESCP_Trait_Bosmer_Spinner>
+        </forcedTraits>
+    </PawnKindDef>
+
+</Defs>

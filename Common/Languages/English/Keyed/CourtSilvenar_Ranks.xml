@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <ESCP_Rank_Mentor_CourtSilvenar>Patron:</ESCP_Rank_Mentor_CourtSilvenar>
+    <ESCP_Rank_Promote_CourtSilvenar>Present to the Silvenar</ESCP_Rank_Promote_CourtSilvenar>
+    <ESCP_Rank_Promoted_Text_CourtSilvenar>The Silvenar has spoken. {0} now serves as {1}.</ESCP_Rank_Promoted_Text_CourtSilvenar>
+    <ESCP_Rank_Rally_Title_CourtSilvenar>{0} speaks for the Silvenar</ESCP_Rank_Rally_Title_CourtSilvenar>
+    <ESCP_Rank_Rally_Text_CourtSilvenar>{0} speaks with the Silvenar's voice, and every one of {1} on the field hears all of Valenwood in it.</ESCP_Rank_Rally_Text_CourtSilvenar>
+    <ESCP_Rank_InspectionComplete_Commended_CourtSilvenar>{0} looks over {1}'s attire and finds it fit for court.</ESCP_Rank_InspectionComplete_Commended_CourtSilvenar>
+    <ESCP_Rank_InspectionComplete_Reprimanded_CourtSilvenar>{0} looks over {1}'s attire and sends them to change before the Silvenar sees.</ESCP_Rank_InspectionComplete_Reprimanded_CourtSilvenar>
+    <ESCP_Rank_PunishmentAssigned_CourtSilvenar>{0} sends {1} to tend the court's gardens.</ESCP_Rank_PunishmentAssigned_CourtSilvenar>
+
+</LanguageData>

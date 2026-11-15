@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ESCP.Ranks.RankTrackDef>
+        <defName>ESCP_RankTrack_Treethanes</defName>
+        <label>the Treethanes ranks</label>
+        <rootTier>ESCP_Rank_Treethanes_Hunter</rootTier>
+        <owningFaction>ESCP_Faction_Treethanes</owningFaction>
+        <collectiveNoun>the Treethanes</collectiveNoun>
+        <drillLabel>Archery Practice</drillLabel>
+        <drillDesc>Train with any colonist. Both stop what they are doing and both gain skill XP. Once per day.</drillDesc>
+        <studyLabel>Hear the Spinners' Tales</studyLabel>
+        <studyDesc>Study with another member. Both gain skill XP. Once per day.</studyDesc>
+        <inspectLabel>Check Their Bow</inspectLabel>
+        <inspectDesc>Look over a junior member's gear. Good upkeep earns praise and poor upkeep earns a sharp word.</inspectDesc>
+        <punishLabel>Send to Gut Game...</punishLabel>
+        <punishDesc>Set a junior member to tedious labor for a failure, souring their mood. Once per day per member.</punishDesc>
+        <rallyLabel>For the Green!</rallyLabel>
+        <rallyDesc>Call on {0} to fight harder for a short while. Once every few days.</rallyDesc>
+        <fallInLabel>Gather Under the Boughs</fallInLabel>
+        <fallInDesc>Order {0} to gather behind you, up to four deep. They hold position until released.</fallInDesc>
+        <dismissLabel>Into the Trees</dismissLabel>
+        <dismissDesc>Release {0} so they can return to their duties.</dismissDesc>
+    </ESCP.Ranks.RankTrackDef>
+
+    <ESCP.Ranks.RankTierDef>
+        <defName>ESCP_Rank_Treethanes_Hunter</defName>
+        <label>hunter</label>
+        <description>Hunts under the Green Pact and eats what they kill.</description>
+        <nextTierOptions>
+            <li>ESCP_Rank_Treethanes_Scout</li>
+        </nextTierOptions>
+    </ESCP.Ranks.RankTierDef>
+
+    <ESCP.Ranks.RankTierDef>
+        <defName>ESCP_Rank_Treethanes_Scout</defName>
+        <label>scout</label>
+        <description>Moves through Valenwood's canopy unseen.</description>
+        <minDaysInRank>4</minDaysInRank>
+        <skillRequirements>
+            <Shooting>5</Shooting>
+        </skillRequirements>
+        <minMissionsCompleted>1</minMissionsCompleted>
+        <trainingXpPerHour>
+            <Shooting>400</Shooting>
+            <Melee>200</Melee>
+        </trainingXpPerHour>
+        <expedition>ESCP_Expedition_Faction_Novice</expedition>
+        <discipline>Combat</discipline>
+        <nextTierOptions>
+            <li>ESCP_Rank_Treethanes_Archer</li>
+        </nextTierOptions>
+    </ESCP.Ranks.RankTierDef>
+
+    <ESCP.Ranks.RankTierDef>
+        <defName>ESCP_Rank_Treethanes_Archer</defName>
+        <label>archer</label>
+        <description>Holds a treethane's borders with the bow.</description>
+        <minDaysInRank>9</minDaysInRank>
+        <skillRequirements>
+            <Shooting>8</Shooting>
+        </skillRequirements>
+        <minMissionsCompleted>2</minMissionsCompleted>
+        <trainingXpPerHour>
+            <Shooting>500</Shooting>
+            <Melee>250</Melee>
+        </trainingXpPerHour>
+        <expedition>ESCP_Expedition_Faction_Novice</expedition>
+        <discipline>Combat</discipline>
+        <nextTierOptions>
+            <li>ESCP_Rank_Treethanes_Jaqspur</li>
+        </nextTierOptions>
+    </ESCP.Ranks.RankTierDef>
+
+    <ESCP.Ranks.RankTierDef>
+        <defName>ESCP_Rank_Treethanes_Jaqspur</defName>
+        <label>Jaqspur</label>
+        <description>One of Valenwood's elite archers, feared across every border.</description>
+        <minDaysInRank>14</minDaysInRank>
+        <skillRequirements>
+            <Shooting>11</Shooting>
+        </skillRequirements>
+        <minMissionsCompleted>4</minMissionsCompleted>
+        <trainingXpPerHour>
+            <Shooting>600</Shooting>
+            <Melee>300</Melee>
+        </trainingXpPerHour>
+        <expedition>ESCP_Expedition_Faction_Veteran</expedition>
+        <discipline>Combat</discipline>
+        <nextTierOptions>
+            <li>ESCP_Rank_Treethanes_TreethanesChampion</li>
+        </nextTierOptions>
+    </ESCP.Ranks.RankTierDef>
+
+    <ESCP.Ranks.RankTierDef>
+        <defName>ESCP_Rank_Treethanes_TreethanesChampion</defName>
+        <label>treethane's champion</label>
+        <description>Fights in a treethane's name in the oldest grudges.</description>
+        <minDaysInRank>20</minDaysInRank>
+        <skillRequirements>
+            <Shooting>14</Shooting>
+        </skillRequirements>
+        <minMissionsCompleted>6</minMissionsCompleted>
+        <trainingXpPerHour>
+            <Shooting>700</Shooting>
+            <Melee>350</Melee>
+        </trainingXpPerHour>
+        <expedition>ESCP_Expedition_Faction_Veteran</expedition>
+        <discipline>Combat</discipline>
+    </ESCP.Ranks.RankTierDef>
+
+</Defs>

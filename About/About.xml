@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+
+    <packageId>Rick.ESCP.Bosmer</packageId>
+    <author>Rick</author>
+    <name>ESCP - Bosmer</name>
+    <description>The Elder Scrolls Collaboration Project Presents: Bosmer, an Elder Scrolls xenotype and faction mod featuring the Wood Elves of Valenwood and the Green Pact they live by.</description>
+    <url>https://github.com/ElderScrollsCollaborationProject</url>
+    <supportedVersions>
+        <li>1.6</li>
+        <li>1.7</li>
+    </supportedVersions>
+    <modDependencies>
+        <li>
+            <packageId>Rick.ESCP.Core.Tools</packageId>
+            <displayName>ESCP - Tools</displayName>
+            <downloadUrl>https://github.com/ElderScrollsCollaborationProject</downloadUrl>
+        </li>
+    </modDependencies>
+    <loadAfter>
+        <li>Rick.ESCP.Core.Tools</li>
+    </loadAfter>
+
+</ModMetaData>

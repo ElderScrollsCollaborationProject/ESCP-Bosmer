@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ESCP.Ranks.RankTrackDef>
+        <defName>ESCP_RankTrack_CourtSilvenar</defName>
+        <label>the Court of the Silvenar ranks</label>
+        <rootTier>ESCP_Rank_CourtSilvenar_Petitioner</rootTier>
+        <owningFaction>ESCP_Faction_Court_Silvenar</owningFaction>
+        <collectiveNoun>the Court of the Silvenar</collectiveNoun>
+        <drillLabel>Bow Practice</drillLabel>
+        <drillDesc>Train with any colonist. Both stop what they are doing and both gain skill XP. Once per day.</drillDesc>
+        <studyLabel>Learn the Stories</studyLabel>
+        <studyDesc>Study with another member. Both gain skill XP. Once per day.</studyDesc>
+        <inspectLabel>Inspect Their Attire</inspectLabel>
+        <inspectDesc>Look over a junior member's gear. Good upkeep earns praise and poor upkeep earns a sharp word.</inspectDesc>
+        <punishLabel>Send to Tend the Gardens...</punishLabel>
+        <punishDesc>Set a junior member to tedious labor for a failure, souring their mood. Once per day per member.</punishDesc>
+        <rallyLabel>For the Silvenar!</rallyLabel>
+        <rallyDesc>Call on {0} to fight harder for a short while. Once every few days.</rallyDesc>
+        <fallInLabel>Attend the Court</fallInLabel>
+        <fallInDesc>Order {0} to gather behind you, up to four deep. They hold position until released.</fallInDesc>
+        <dismissLabel>Court Is Done</dismissLabel>
+        <dismissDesc>Release {0} so they can return to their duties.</dismissDesc>
+    </ESCP.Ranks.RankTrackDef>
+
+    <ESCP.Ranks.RankTierDef>
+        <defName>ESCP_Rank_CourtSilvenar_Petitioner</defName>
+        <label>petitioner</label>
+        <description>Has come to the court asking to serve.</description>
+        <nextTierOptions>
+            <li>ESCP_Rank_CourtSilvenar_Attendant</li>
+        </nextTierOptions>
+    </ESCP.Ranks.RankTierDef>
+
+    <ESCP.Ranks.RankTierDef>
+        <defName>ESCP_Rank_CourtSilvenar_Attendant</defName>
+        <label>attendant</label>
+        <description>Serves in the Silvenar's household.</description>
+        <minDaysInRank>4</minDaysInRank>
+        <skillRequirements>
+            <Social>5</Social>
+        </skillRequirements>
+        <minMissionsCompleted>1</minMissionsCompleted>
+        <trainingXpPerHour>
+            <Social>400</Social>
+            <Intellectual>200</Intellectual>
+        </trainingXpPerHour>
+        <expedition>ESCP_Expedition_Faction_Novice</expedition>
+        <discipline>Scholarly</discipline>
+        <nextTierOptions>
+            <li>ESCP_Rank_CourtSilvenar_SpinnersApprentice</li>
+        </nextTierOptions>
+    </ESCP.Ranks.RankTierDef>
+
+    <ESCP.Ranks.RankTierDef>
+        <defName>ESCP_Rank_CourtSilvenar_SpinnersApprentice</defName>
+        <label>spinner's apprentice</label>
+        <description>Learns the stories that hold the Bosmer together.</description>
+        <minDaysInRank>9</minDaysInRank>
+        <skillRequirements>
+            <Social>8</Social>
+        </skillRequirements>
+        <minMissionsCompleted>2</minMissionsCompleted>
+        <trainingXpPerHour>
+            <Social>500</Social>
+            <Intellectual>250</Intellectual>
+        </trainingXpPerHour>
+        <expedition>ESCP_Expedition_Faction_Novice</expedition>
+        <discipline>Scholarly</discipline>
+        <nextTierOptions>
+            <li>ESCP_Rank_CourtSilvenar_WardenOfTheGreenLady</li>
+        </nextTierOptions>
+    </ESCP.Ranks.RankTierDef>
+
+    <ESCP.Ranks.RankTierDef>
+        <defName>ESCP_Rank_CourtSilvenar_WardenOfTheGreenLady</defName>
+        <label>warden of the Green Lady</label>
+        <description>Guards the Green Lady, the Silvenar's bonded mate.</description>
+        <minDaysInRank>14</minDaysInRank>
+        <skillRequirements>
+            <Social>11</Social>
+        </skillRequirements>
+        <minMissionsCompleted>4</minMissionsCompleted>
+        <trainingXpPerHour>
+            <Social>600</Social>
+            <Intellectual>300</Intellectual>
+        </trainingXpPerHour>
+        <expedition>ESCP_Expedition_Faction_Veteran</expedition>
+        <discipline>Scholarly</discipline>
+        <nextTierOptions>
+            <li>ESCP_Rank_CourtSilvenar_VoiceOfTheCourt</li>
+        </nextTierOptions>
+    </ESCP.Ranks.RankTierDef>
+
+    <ESCP.Ranks.RankTierDef>
+        <defName>ESCP_Rank_CourtSilvenar_VoiceOfTheCourt</defName>
+        <label>voice of the court</label>
+        <description>Speaks for the Silvenar when the Silvenar cannot.</description>
+        <minDaysInRank>20</minDaysInRank>
+        <skillRequirements>
+            <Social>14</Social>
+        </skillRequirements>
+        <minMissionsCompleted>6</minMissionsCompleted>
+        <trainingXpPerHour>
+            <Social>700</Social>
+            <Intellectual>350</Intellectual>
+        </trainingXpPerHour>
+        <expedition>ESCP_Expedition_Faction_Veteran</expedition>
+        <discipline>Scholarly</discipline>
+    </ESCP.Ranks.RankTierDef>
+
+</Defs>

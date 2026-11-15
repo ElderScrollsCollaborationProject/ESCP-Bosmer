@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <ESCP_Rank_Mentor_Treethanes>Hunt-elder:</ESCP_Rank_Mentor_Treethanes>
+    <ESCP_Rank_Promote_Treethanes>Honor Under the Green</ESCP_Rank_Promote_Treethanes>
+    <ESCP_Rank_Promoted_Text_Treethanes>The treethane approves. {0} is now counted as {1}.</ESCP_Rank_Promoted_Text_Treethanes>
+    <ESCP_Rank_Rally_Title_Treethanes>{0} calls on Y'ffre</ESCP_Rank_Rally_Title_Treethanes>
+    <ESCP_Rank_Rally_Text_Treethanes>{0} sings a hunting call, and every one of {1} on the field moves with the forest.</ESCP_Rank_Rally_Text_Treethanes>
+    <ESCP_Rank_InspectionComplete_Commended_Treethanes>{0} checks {1}'s bow. Strung tight and true.</ESCP_Rank_InspectionComplete_Commended_Treethanes>
+    <ESCP_Rank_InspectionComplete_Reprimanded_Treethanes>{0} checks {1}'s bow and finds the string frayed.</ESCP_Rank_InspectionComplete_Reprimanded_Treethanes>
+    <ESCP_Rank_PunishmentAssigned_Treethanes>{0} sends {1} to gut the day's kill.</ESCP_Rank_PunishmentAssigned_Treethanes>
+
+</LanguageData>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <ESCP_Treethanes_Enlist_Letter_Title>Pledged to a treethane</ESCP_Treethanes_Enlist_Letter_Title>
+    <ESCP_Treethanes_Enlist_Letter_Label>The colony is now in a treethane's service. Bosmer hunters will share meat and coin with you, and expect you not to cut their trees.</ESCP_Treethanes_Enlist_Letter_Label>
+    <ESCP_Treethanes_Enlist_Button_Label>Pledge to a treethane</ESCP_Treethanes_Enlist_Button_Label>
+    <ESCP_Treethanes_Enlist_Button_Desc>Take service with a treethane of Valenwood. Mind the Green Pact and you will do fine.</ESCP_Treethanes_Enlist_Button_Desc>
+    <ESCP_Treethanes_Enlist_Requrements_Not_Satisfied>The treethanes have not warmed to you. Standing: {0}.</ESCP_Treethanes_Enlist_Requrements_Not_Satisfied>
+    <ESCP_Treethanes_Enlisted_To_Hostile_Faction>No treethane will take the pledge of an enemy of Valenwood.</ESCP_Treethanes_Enlisted_To_Hostile_Faction>
+    <ESCP_Treethanes_Enlisted_With_Key>Pledged to the treethanes</ESCP_Treethanes_Enlisted_With_Key>
+    <ESCP_Treethanes_Missions_Label>The treethane's errands</ESCP_Treethanes_Missions_Label>
+    <ESCP_Treethanes_Missions_Desc>See what the treethane wants done.</ESCP_Treethanes_Missions_Desc>
+    <ESCP_Treethanes_Menu_Missions_Desc>Errands from the treethane's hall. Paid when finished, and paid fairly.</ESCP_Treethanes_Menu_Missions_Desc>
+    <ESCP_Treethanes_Menu_Missions_Select_Quest>Select a job</ESCP_Treethanes_Menu_Missions_Select_Quest>
+    <ESCP_Treethanes_Menu_Missions_Start_Quest>Accept</ESCP_Treethanes_Menu_Missions_Start_Quest>
+    <ESCP_Treethanes_Menu_Missions_Collect_Bounty>Collect</ESCP_Treethanes_Menu_Missions_Collect_Bounty>
+    <ESCP_Treethanes_Provisions_Label>Share the hunt</ESCP_Treethanes_Provisions_Label>
+    <ESCP_Treethanes_Provisions_Desc>Meat from the treethane's hunters. Nothing green, of course.</ESCP_Treethanes_Provisions_Desc>
+    <ESCP_Treethanes_Storage_Label>Graht-oak cache</ESCP_Treethanes_Storage_Label>
+    <ESCP_Treethanes_Storage_Desc>Leave goods in the hollow of a graht-oak.</ESCP_Treethanes_Storage_Desc>
+    <ESCP_Treethanes_Resign_Menu_Text>Break your pledge to the treethane? The Bosmer will not forget it.</ESCP_Treethanes_Resign_Menu_Text>
+    <ESCP_Treethanes_Resign_Letter_Title>Pledge broken</ESCP_Treethanes_Resign_Letter_Title>
+    <ESCP_Treethanes_Resign_Letter_Label>The colony has left the treethane's service.</ESCP_Treethanes_Resign_Letter_Label>
+    <ESCP_Treethanes_Resign_Button_Label>Break the pledge</ESCP_Treethanes_Resign_Button_Label>
+    <ESCP_Treethanes_Resign_Button_Desc>End your service to the treethane.</ESCP_Treethanes_Resign_Button_Desc>
+    <ESCP_Treethanes_Kick_Out_Letter_Title>Cast out of Valenwood</ESCP_Treethanes_Kick_Out_Letter_Title>
+    <ESCP_Treethanes_Kick_Out_Label_Title>The treethanes want nothing more to do with the colony.</ESCP_Treethanes_Kick_Out_Label_Title>
+    <ESCP_Treethanes_Salary_Label>Collect your share</ESCP_Treethanes_Salary_Label>
+    <ESCP_Treethanes_Salary_Desc>A share of the treethane's trade.</ESCP_Treethanes_Salary_Desc>
+    <ESCP_Treethanes_Work_0_Label>Hunt for the treethane</ESCP_Treethanes_Work_0_Label>
+    <ESCP_Treethanes_Work_0_Desc>Bring down game in the deep forest with Bosmer archers.</ESCP_Treethanes_Work_0_Desc>
+    <ESCP_Treethanes_Work_1_Label>Guard the graht-oaks</ESCP_Treethanes_Work_1_Label>
+    <ESCP_Treethanes_Work_1_Desc>Watch for woodcutters and anyone else foolish enough to bring an axe.</ESCP_Treethanes_Work_1_Desc>
+
+</LanguageData>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <QuestScriptDef>
+        <defName>ESCP_Quest_Bosmer_Feast</defName>
+        <rootSelectionWeight>0.5</rootSelectionWeight>
+        <rootMinPoints>20</rootMinPoints>
+        <defaultChallengeRating>1</defaultChallengeRating>
+        <canGiveRoyalFavor>false</canGiveRoyalFavor>
+        <expireDaysRange>5~10</expireDaysRange>
+        <questNameRules>
+            <rulesStrings>
+                <li>questName->Valenwood: Meat for the Feast</li>
+                <li>questName->Valenwood: The Treethane's Table</li>
+            </rulesStrings>
+        </questNameRules>
+        <questDescriptionRules>
+            <rulesStrings>
+                <li>questDescription->[asker_nameFull] of [askerFaction_name] is holding a feast, and under the Green Pact every dish on the table has to be meat. The hunters cannot keep up. [asker_nameDef] will pay for [requiredCount] raw meat, any kind at all, so long as it arrives before the guests do.\n\nHave [requiredCount] raw meat in storage within [feastDays] days.</li>
+            </rulesStrings>
+        </questDescriptionRules>
+        <root Class="QuestNode_Sequence">
+            <nodes>
+                <li Class="QuestNode_SubScript">
+                    <def>Util_RandomizePointsChallengeRating</def>
+                </li>
+                <li Class="QuestNode_GetMap" />
+                <li Class="ESCP.Core.RadiantQuests.QuestNode_GetFactionFromList">
+                    <storeAs>askerFaction</storeAs>
+                    <factionDefs>
+                        <li>ESCP_Faction_Treethanes</li>
+                        <li>ESCP_Faction_Court_Silvenar</li>
+                    </factionDefs>
+                </li>
+                <li Class="ESCP.Core.RadiantQuests.QuestNode_GetLeaderOfFaction">
+                    <factionToUse>$askerFaction</factionToUse>
+                    <storeAs>asker</storeAs>
+                </li>
+                <li Class="QuestNode_Set">
+                    <name>requiredCount</name>
+                    <value>$(randInt(15,30)*10)</value>
+                </li>
+                <li Class="QuestNode_Set">
+                    <name>feastDays</name>
+                    <value>15</value>
+                </li>
+                <li Class="ESCP.Core.RadiantQuests.QuestNode_WatchItemCountOnMap">
+                    <map>$map</map>
+                    <itemCategory>MeatRaw</itemCategory>
+                    <requiredCount>$requiredCount</requiredCount>
+                    <outSignalComplete>meat.Delivered</outSignalComplete>
+                </li>
+                <li Class="QuestNode_Signal">
+                    <inSignal>meat.Delivered</inSignal>
+                    <node Class="QuestNode_Sequence">
+                        <nodes>
+                            <li Class="QuestNode_GiveRewards">
+                                <parms>
+                                    <allowGoodwill>true</allowGoodwill>
+                                    <allowRoyalFavor>false</allowRoyalFavor>
+                                </parms>
+                                <addCampLootReward>false</addCampLootReward>
+                                <customLetterLabel>Meat delivered</customLetterLabel>
+                                <customLetterText>The meat went off to Valenwood on a long line of pack animals. By all accounts the feast was a loud one, and [asker_nameDef] has sent payment and an open invitation to the next.</customLetterText>
+                            </li>
+                            <li Class="QuestNode_End">
+                                <outcome>Success</outcome>
+                            </li>
+                        </nodes>
+                    </node>
+                </li>
+                <li Class="QuestNode_Delay">
+                    <delayTicks>$($feastDays * 60000)</delayTicks>
+                    <isQuestTimeout>true</isQuestTimeout>
+                    <node Class="QuestNode_End">
+                        <outcome>Fail</outcome>
+                        <sendStandardLetter>true</sendStandardLetter>
+                    </node>
+                </li>
+            </nodes>
+        </root>
+    </QuestScriptDef>
+
+</Defs>

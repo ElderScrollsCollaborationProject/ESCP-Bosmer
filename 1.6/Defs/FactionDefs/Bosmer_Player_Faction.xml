@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <FactionDef ParentName="PlayerFactionBase">
+        <defName>ESCP_Faction_Bosmer_Player</defName>
+        <label>Wandering Grove</label>
+        <description>A band of Bosmer who followed a walking city and lost it. They have decided that this will do for a forest, at least until something better comes along.</description>
+        <isPlayer>true</isPlayer>
+        <techLevel>Medieval</techLevel>
+        <basicMemberKind>ESCP_Pawnkind_Bosmer_Settler</basicMemberKind>
+        <pawnSingular>Bosmer</pawnSingular>
+        <pawnsPlural>Bosmer</pawnsPlural>
+        <leaderTitle>Treethane</leaderTitle>
+        <factionIconPath>World/WorldObjects/Expanding/Empire</factionIconPath>
+        <colorSpectrum>
+            <li>(0.3, 0.5, 0.2)</li>
+        </colorSpectrum>
+        <xenotypeSet MayRequire="Ludeon.RimWorld.Biotech">
+            <xenotypeChances>
+                <ESCP_Xenotype_Bosmer>1</ESCP_Xenotype_Bosmer>
+            </xenotypeChances>
+        </xenotypeSet>
+        <disallowedMemes>
+            <li MayRequire="Ludeon.RimWorld.Ideology">ESCP_Meme_NineDivines</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">ESCP_Structure_OriginDivinesNine</li>
+        </disallowedMemes>
+        <allowedCultures>
+            <li>ESCP_Culture_Bosmer</li>
+        </allowedCultures>
+        <backstoryFilters>
+            <li>
+                <categories>
+                    <li>ESCP_Backstory_Bosmer_Child</li>
+                    <li>ESCP_Backstory_Bosmer_Citizen</li>
+                    <li>ESCP_Backstory_Bosmer_Military</li>
+                    <li>ESCP_Backstory_Bosmer_Mage</li>
+                </categories>
+            </li>
+        </backstoryFilters>
+
+        <modExtensions>
+            <li Class="ESCP_RaceTools.FactionProperties">
+                <factionTags>
+                    <li>ESCP_Aldmeri</li>
+                    <li>ESCP_GreenPact</li>
+                </factionTags>
+            </li>
+        </modExtensions>
+    </FactionDef>
+
+</Defs>

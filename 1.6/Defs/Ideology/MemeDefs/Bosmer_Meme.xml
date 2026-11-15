@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <MemeDef MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>ESCP_Meme_GreenPact</defName>
+        <label>Green Pact</label>
+        <description>Y'ffre gave us our shape in exchange for a promise. We will not harm the forest, nor eat anything that grew from it. We take what the forest makes of flesh and honor it by wasting none of that, including our enemies. Everything we are depends on the promise holding.</description>
+        <iconPath>UI/Structures/ESCP_OriginDivinesEight</iconPath>
+        <groupDef>Misc</groupDef>
+        <impact>2</impact>
+        <randomizationSelectionWeightFactor>0</randomizationSelectionWeightFactor>
+        <hiddenInChooseMemes>true</hiddenInChooseMemes>
+        <requireOne>
+            <li>
+                <li>TreeCutting_Prohibited</li>
+            </li>
+            <li>
+                <li>MeatEating_NonMeat_Horrible</li>
+                <li>MeatEating_NonMeat_Disapproved</li>
+            </li>
+            <li>
+                <li>Cannibalism_Acceptable</li>
+            </li>
+            <li>
+                <li>Research_Normal</li>
+            </li>
+            <li>
+                <li>Charity_Worthwhile</li>
+            </li>
+        </requireOne>
+    </MemeDef>
+
+</Defs>

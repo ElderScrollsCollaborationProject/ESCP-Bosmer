@@ -1,0 +1,2280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Treetop_Child</defName>
+        <identifier>ESCP_Backstory_Bosmer_Treetop_Child</identifier>
+        <slot>Childhood</slot>
+        <title>treetop runner</title>
+        <titleShort>Runner</titleShort>
+        <description>[PAWN_nameDef] grew up on rope walkways a hundred feet off the ground, delivering messages for a treethane who paid in smoked rat. Falling was something that happened to other children.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Melee>1</Melee>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Hunter_Child</defName>
+        <identifier>ESCP_Backstory_Bosmer_Hunter_Child</identifier>
+        <slot>Childhood</slot>
+        <title>hunter's whelp</title>
+        <titleShort>Whelp</titleShort>
+        <description>[PAWN_nameDef] was given a child's bow as soon as [PAWN_pronoun] could stand. By twelve [PAWN_pronoun] had brought home a fair share of the family's meat, and had quietly stopped thinking of it as a game.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Animals>1</Animals>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Story_Child</defName>
+        <identifier>ESCP_Backstory_Bosmer_Story_Child</identifier>
+        <slot>Childhood</slot>
+        <title>spinner's ward</title>
+        <titleShort>Ward</titleShort>
+        <description>An old spinner took [PAWN_nameDef] in and spent years making [PAWN_objective] repeat the same tale until every word sat right. [PAWN_pronoun] can still recite the creation of the world, with several endings.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>3</Social>
+            <Artistic>1</Artistic>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Longbow</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Longbow</identifier>
+        <slot>Adulthood</slot>
+        <title>graht-oak archer</title>
+        <titleShort>Archer</titleShort>
+        <description>[PAWN_nameDef] held a platform in the high canopy for a treethane through three small wars. Nobody on the ground ever saw [PAWN_objective]. That was more or less the entire job.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>7</Shooting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Beastmaster</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Beastmaster</identifier>
+        <slot>Adulthood</slot>
+        <title>Valenwood beastmaster</title>
+        <titleShort>Beastmaster</titleShort>
+        <description>[PAWN_nameDef] raised senche-tigers, giant spiders and other things most sensible people run from, then took them to war for whoever was paying. The animals still come when called.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>7</Animals>
+            <Melee>2</Melee>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Thief</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Thief</identifier>
+        <slot>Adulthood</slot>
+        <title>Baan Dar's follower</title>
+        <titleShort>Thief</titleShort>
+        <description>Bosmer folk stories admire a clever thief, and [PAWN_nameDef] took those stories more seriously than intended. [PAWN_pronoun] robbed three Imperial tax collectors and considered them all a form of worship.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>3</Melee>
+            <Social>3</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Spinner</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Spinner</identifier>
+        <slot>Adulthood</slot>
+        <title>traveling spinner</title>
+        <titleShort>Spinner</titleShort>
+        <description>[PAWN_nameDef] walked between towns retelling the old stories, changing them just enough that everyone left thinking the tale was about their own family. It keeps a person fed, and that was what mattered.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>6</Social>
+            <Artistic>3</Artistic>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Canopy_Healer</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Canopy_Healer</identifier>
+        <slot>Adulthood</slot>
+        <title>grove healer</title>
+        <titleShort>Healer</titleShort>
+        <description>Without bark or root to use, Bosmer medicine has to get creative, and [PAWN_nameDef] learned what could be done with bone, fat and honey. People who ask about the details rarely finish their meal.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Medicine>6</Medicine>
+            <Animals>1</Animals>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Jerky</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Jerky</identifier>
+        <slot>Adulthood</slot>
+        <title>smokehouse keeper</title>
+        <titleShort>Smoker</titleShort>
+        <description>[PAWN_nameDef] kept the smokehouse for a whole town and could tell how long a cut had hung by smell alone. [PAWN_pronoun] considers vegetables a rumor spread by Imperials.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Cooking>7</Cooking>
+            <Animals>1</Animals>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Ferryman</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Ferryman</identifier>
+        <slot>Adulthood</slot>
+        <title>Strid river pilot</title>
+        <titleShort>Pilot</titleShort>
+        <description>[PAWN_nameDef] poled trade barges down the Strid for years, buying from nobody and selling to everyone, until a dispute over a shipment of Colovian wine ended the arrangement.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>4</Social>
+            <Construction>1</Construction>
+            <Animals>2</Animals>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Graht_Child</defName>
+        <identifier>ESCP_Backstory_Bosmer_Graht_Child</identifier>
+        <slot>Childhood</slot>
+        <title>graht-oak child</title>
+        <titleShort>Oak child</titleShort>
+        <description>[PAWN_nameDef] grew up in a house that was never built, only persuaded out of the tree. Walking on flat ground still feels faintly wrong.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>2</Plants>
+            <Shooting>2</Shooting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Falinesti_Child</defName>
+        <identifier>ESCP_Backstory_Bosmer_Falinesti_Child</identifier>
+        <slot>Childhood</slot>
+        <title>walking city child</title>
+        <titleShort>Falinesti</titleShort>
+        <description>[PAWN_nameDef] was born in Falinesti in a season when it stood near the coast. By the next one it had walked away, and [PAWN_pronoun] went with it.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>2</Animals>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Beast_Child</defName>
+        <identifier>ESCP_Backstory_Bosmer_Beast_Child</identifier>
+        <slot>Childhood</slot>
+        <title>beast-speaker's child</title>
+        <titleShort>Beast child</titleShort>
+        <description>The hunting cats in camp let [PAWN_nameDef] sleep against them before anyone taught [PAWN_objective] to walk. People still find it hard to tell who was raising whom.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>4</Animals>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Spinner_Child</defName>
+        <identifier>ESCP_Backstory_Bosmer_Spinner_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Spinner's foundling</title>
+        <titleShort>Foundling</titleShort>
+        <description>A Spinner of Y'ffre took [PAWN_nameDef] in and told [PAWN_objective] stories until [PAWN_pronoun] could tell them back. The telling, in Valenwood, changes things.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>3</Social>
+            <Artistic>1</Artistic>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Bone_Child</defName>
+        <identifier>ESCP_Backstory_Bosmer_Bone_Child</identifier>
+        <slot>Childhood</slot>
+        <title>bone carver's child</title>
+        <titleShort>Carver</titleShort>
+        <description>With wood forbidden, a family learns to do a great deal with femurs. [PAWN_nameDef] carved a bone comb at six and has not stopped since.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>3</Crafting>
+            <Artistic>1</Artistic>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Raider_Child</defName>
+        <identifier>ESCP_Backstory_Bosmer_Raider_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Imga-troubled child</title>
+        <titleShort>Border child</titleShort>
+        <description>The village lay close to the Elsweyr border, and raiders came every other summer. [PAWN_nameDef] could get up a tree with a bow before the alarm finished.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Melee>1</Melee>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Treethane_Scout</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Treethane_Scout</identifier>
+        <slot>Adulthood</slot>
+        <title>treethane's scout</title>
+        <titleShort>Scout</titleShort>
+        <description>[PAWN_nameDef] ran messages through the canopy for a thane who trusted nobody on the ground. [PAWN_pronoun] rarely touched the forest floor for years at a time.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>5</Shooting>
+            <Melee>2</Melee>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Bow_Master</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Bow_Master</identifier>
+        <slot>Adulthood</slot>
+        <title>Grahtwood bowyer</title>
+        <titleShort>Bowyer</titleShort>
+        <description>Bosmer bows are made of horn and sinew, since wood is out of the question. [PAWN_nameDef] makes the best in the district and tests them on whoever complains.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>6</Shooting>
+            <Crafting>3</Crafting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Silvan_Blade</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Silvan_Blade</identifier>
+        <slot>Adulthood</slot>
+        <title>Silvenar's blade</title>
+        <titleShort>Blade</titleShort>
+        <description>[PAWN_nameDef] guarded the Silvenar's household and felt each of his moods arrive like weather. It is hard to serve someone who knows what you are thinking and is too polite to mention it.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>6</Melee>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Wild_Hunt</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Wild_Hunt</identifier>
+        <slot>Adulthood</slot>
+        <title>Wild Hunt survivor</title>
+        <titleShort>Survivor</titleShort>
+        <description>[PAWN_nameDef] saw the Wild Hunt called once, at the end of a lost war. The people around [PAWN_objective] stopped being people. Why it let [PAWN_objective] go, nobody knows, and [PAWN_pronoun] does not ask.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>7</Melee>
+            <Shooting>1</Shooting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Poacher_Hunter</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Poacher_Hunter</identifier>
+        <slot>Adulthood</slot>
+        <title>poacher hunter</title>
+        <titleShort>Hunter</titleShort>
+        <description>Foreigners come to Valenwood for the timber. [PAWN_nameDef] has sent a number of them back with a clear message, carried by the survivor.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>6</Shooting>
+            <Plants>1</Plants>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Dominion_Scout</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Dominion_Scout</identifier>
+        <slot>Adulthood</slot>
+        <title>Dominion pathfinder</title>
+        <titleShort>Pathfinder</titleShort>
+        <description>When the Thalmor came to Valenwood, [PAWN_nameDef] guided their columns through the forest for silver. The neighbors have long memories about that sort of thing.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>4</Shooting>
+            <Social>2</Social>
+            <Plants>1</Plants>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Yffre_Spinner</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Yffre_Spinner</identifier>
+        <slot>Adulthood</slot>
+        <title>Spinner of Y'ffre</title>
+        <titleShort>Spinner</titleShort>
+        <description>A Spinner shapes the story of a place by speaking it. [PAWN_nameDef] has talked a sick grove back to health, and has also, on one bad occasion, talked a man out of existing.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>5</Social>
+            <Plants>3</Plants>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Green_Mage</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Green_Mage</identifier>
+        <slot>Adulthood</slot>
+        <title>wood-shaper</title>
+        <titleShort>Shaper</titleShort>
+        <description>The Pact forbids cutting a tree. It says nothing about asking one to move. [PAWN_nameDef] has spent decades asking, very politely.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>6</Plants>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Pack_Caller</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Pack_Caller</identifier>
+        <slot>Adulthood</slot>
+        <title>pack caller</title>
+        <titleShort>Caller</titleShort>
+        <description>A pack of senche and wolves followed [PAWN_nameDef] through the deep green, more or less at [PAWN_possessive] suggestion.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>7</Animals>
+            <Melee>1</Melee>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Healer</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Healer</identifier>
+        <slot>Adulthood</slot>
+        <title>green healer</title>
+        <titleShort>Healer</titleShort>
+        <description>Moss, grubs and a low steady chant: [PAWN_nameDef]'s medicine looks terrible and generally works. [PAWN_pronoun] has stopped explaining it to outsiders.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Medicine>7</Medicine>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Meat_Brewer</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Meat_Brewer</identifier>
+        <slot>Adulthood</slot>
+        <title>rotmeth brewer</title>
+        <titleShort>Brewer</titleShort>
+        <description>The Pact allows no plants in a Bosmer's mouth, so [PAWN_nameDef] brews drink from fermented meat. It is called rotmeth, and it tastes exactly the way it sounds.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Cooking>7</Cooking>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Hide_Worker</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Hide_Worker</identifier>
+        <slot>Adulthood</slot>
+        <title>hide tanner</title>
+        <titleShort>Tanner</titleShort>
+        <description>A people with no timber depend on what the hunters bring in. [PAWN_nameDef] turned hides into walls, boats and a fairly good bridge.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>6</Crafting>
+            <Construction>2</Construction>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Storyteller</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Storyteller</identifier>
+        <slot>Adulthood</slot>
+        <title>tavern liar</title>
+        <titleShort>Liar</titleShort>
+        <description>Bosmer respect a good story and don't much care if it happened. [PAWN_nameDef] has dined out for thirty years on a duel with a dragon, an event of which there is no evidence at all.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>7</Social>
+            <Artistic>2</Artistic>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Canopy_Merchant</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Canopy_Merchant</identifier>
+        <slot>Adulthood</slot>
+        <title>canopy trader</title>
+        <titleShort>Trader</titleShort>
+        <description>Rope bridges and hanging markets were [PAWN_nameDef]'s whole world. Everything was sold twice before it got down to the ground.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>6</Social>
+            <Animals>1</Animals>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Corpse_Keeper</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Corpse_Keeper</identifier>
+        <slot>Adulthood</slot>
+        <title>feast keeper</title>
+        <titleShort>Keeper</titleShort>
+        <description>When a fallen enemy must be eaten within three days, someone has to organize it. [PAWN_nameDef] ran the feasts of a whole clan, and foreigners found [PAWN_objective] alarmingly cheerful about it.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Cooking>6</Cooking>
+            <Medicine>2</Medicine>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Child_Falinesti_Follower</defName>
+        <identifier>ESCP_Backstory_Bosmer_Child_Falinesti_Follower</identifier>
+        <slot>Childhood</slot>
+        <title>Falinesti follower</title>
+        <titleShort>Follower</titleShort>
+        <description>Falinesti walks, and its people walk after it. [PAWN_nameDef] spent childhood packing up and trying to guess which way a very large tree felt like going.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>2</Animals>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Child_Elden_Root_Messenger</defName>
+        <identifier>ESCP_Backstory_Bosmer_Child_Elden_Root_Messenger</identifier>
+        <slot>Childhood</slot>
+        <title>Elden Root messenger</title>
+        <titleShort>Messenger</titleShort>
+        <description>Nobody at Elden Root gives directions, because the branches have grown since last year. [PAWN_nameDef] learned the routes by falling off the wrong ones.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>3</Social>
+            <Melee>1</Melee>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Child_Woodhearth_Tumbler</defName>
+        <identifier>ESCP_Backstory_Bosmer_Child_Woodhearth_Tumbler</identifier>
+        <slot>Childhood</slot>
+        <title>Woodhearth tumbler</title>
+        <titleShort>Tumbler</titleShort>
+        <description>Street shows in Woodhearth pay in whatever the crowd is holding. [PAWN_nameDef] tumbled for scraps of smoked meat and once for a live chicken.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Artistic>2</Artistic>
+            <Melee>2</Melee>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Child_Arenthia_Border_Child</defName>
+        <identifier>ESCP_Backstory_Bosmer_Child_Arenthia_Border_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Arenthia border child</title>
+        <titleShort>Border child</titleShort>
+        <description>Arenthia sits close to Elsweyr, and the children there can swear in Ta'agra. [PAWN_nameDef] picked up a lot of useful words and a few Khajiit cousins by marriage.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>2</Social>
+            <Shooting>2</Shooting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Child_Haven_Dock_Scavenger</defName>
+        <identifier>ESCP_Backstory_Bosmer_Child_Haven_Dock_Scavenger</identifier>
+        <slot>Childhood</slot>
+        <title>Haven dock scavenger</title>
+        <titleShort>Scavenger</titleShort>
+        <description>Boats that came into Haven left plenty behind when the crew got drunk. [PAWN_nameDef] sold most of it back to them the next morning.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>2</Crafting>
+            <Melee>2</Melee>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Child_Southpoint_Gull_Shooter</defName>
+        <identifier>ESCP_Backstory_Bosmer_Child_Southpoint_Gull_Shooter</identifier>
+        <slot>Childhood</slot>
+        <title>Southpoint gull shooter</title>
+        <titleShort>Shooter</titleShort>
+        <description>Southpoint's gulls are thin and taste of salt, but the Meat Mandate does not ask for quality. [PAWN_nameDef] was feeding a family with a bow at nine.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Cooking>1</Cooking>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Child_Greenheart_Hermits_Child</defName>
+        <identifier>ESCP_Backstory_Bosmer_Child_Greenheart_Hermits_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Greenheart hermit's child</title>
+        <titleShort>Hermit's child</titleShort>
+        <description>Greenheart lay so far under the canopy that the rain arrived a day late. [PAWN_nameDef] saw other people perhaps twice a year and found them loud.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>2</Plants>
+            <Animals>2</Animals>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Child_Meat_Mandate_Child</defName>
+        <identifier>ESCP_Backstory_Bosmer_Child_Meat_Mandate_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Meat Mandate child</title>
+        <titleShort>Mandate child</titleShort>
+        <description>The Meat Mandate says what goes in a Bosmer's mouth, including, on a bad enough winter, an aunt. [PAWN_nameDef] remembers that winter clearly and does not bring it up.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Cooking>3</Cooking>
+            <Melee>1</Melee>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Child_Bone_Flute_Maker</defName>
+        <identifier>ESCP_Backstory_Bosmer_Child_Bone_Flute_Maker</identifier>
+        <slot>Childhood</slot>
+        <title>bone flute maker</title>
+        <titleShort>Flute maker</titleShort>
+        <description>Good flutes come from long bones, and a Bosmer town has no shortage. [PAWN_nameDef] could tell you which uncle gave the best tone.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Artistic>3</Artistic>
+            <Crafting>1</Crafting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Child_Jerky_Runner</defName>
+        <identifier>ESCP_Backstory_Bosmer_Child_Jerky_Runner</identifier>
+        <slot>Childhood</slot>
+        <title>jerky runner</title>
+        <titleShort>Jerky runner</titleShort>
+        <description>Strips of jerked rat had to reach the treethane's hall before the flies did. [PAWN_nameDef] did the run daily and ate every fifth strip as a fee.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Cooking>2</Cooking>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Child_Yffre_Story_Child</defName>
+        <identifier>ESCP_Backstory_Bosmer_Child_Yffre_Story_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Y'ffre story child</title>
+        <titleShort>Story child</titleShort>
+        <description>The Bosmer say the world holds its shape because someone keeps telling it. [PAWN_nameDef] retold everything wrong on purpose just to see what would happen.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>3</Social>
+            <Plants>1</Plants>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Child_Green_Pact_Truant</defName>
+        <identifier>ESCP_Backstory_Bosmer_Child_Green_Pact_Truant</identifier>
+        <slot>Childhood</slot>
+        <title>Green Pact truant</title>
+        <titleShort>Truant</titleShort>
+        <description>At age eight, [PAWN_nameDef] was caught carving a name in a tree. The elders' response was slow, thorough and lasted through most of a season.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>2</Plants>
+            <Melee>2</Melee>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Child_Bark_House_Apprentice</defName>
+        <identifier>ESCP_Backstory_Bosmer_Child_Bark_House_Apprentice</identifier>
+        <slot>Childhood</slot>
+        <title>bark-house apprentice</title>
+        <titleShort>Apprentice</titleShort>
+        <description>A Bosmer house is coaxed out of a living tree over many years. [PAWN_nameDef] held the strings that guide the shoots and rarely got to see one finished.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Construction>3</Construction>
+            <Plants>1</Plants>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Child_Wolf_Reared_Child</defName>
+        <identifier>ESCP_Backstory_Bosmer_Child_Wolf_Reared_Child</identifier>
+        <slot>Childhood</slot>
+        <title>wolf-reared child</title>
+        <titleShort>Wolf-reared</titleShort>
+        <description>Stories say a pack took [PAWN_nameDef] in after a fire. More likely, the child followed them around for scraps, but it makes a poor tale told that way.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>3</Animals>
+            <Melee>1</Melee>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Child_Spider_Silk_Gatherer</defName>
+        <identifier>ESCP_Backstory_Bosmer_Child_Spider_Silk_Gatherer</identifier>
+        <slot>Childhood</slot>
+        <title>spider-silk gatherer</title>
+        <titleShort>Silk gatherer</titleShort>
+        <description>Spider silk is free for anyone not afraid to go get it. [PAWN_nameDef] brought it home in great sticky bundles and learned how to tell when a web was occupied.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>3</Crafting>
+            <Animals>1</Animals>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Child_Hunting_Partys_Dog_Handler</defName>
+        <identifier>ESCP_Backstory_Bosmer_Child_Hunting_Partys_Dog_Handler</identifier>
+        <slot>Childhood</slot>
+        <title>hunting party's dog handler</title>
+        <titleShort>Dog handler</titleShort>
+        <description>Hunters needed someone to mind the hounds, and the child could be spared. [PAWN_nameDef] learned about tracking mostly from the back end of a dog.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>3</Animals>
+            <Shooting>1</Shooting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Child_Imga_Tutored_Child</defName>
+        <identifier>ESCP_Backstory_Bosmer_Child_Imga_Tutored_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Imga-tutored child</title>
+        <titleShort>Imga tutored</titleShort>
+        <description>Imga are great apes with poor tempers and a fondness for elven manners. [PAWN_nameDef] somehow learned to bow from one and was laughed at for a decade.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>2</Social>
+            <Melee>2</Melee>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Child_Canopy_Climber</defName>
+        <identifier>ESCP_Backstory_Bosmer_Child_Canopy_Climber</identifier>
+        <slot>Childhood</slot>
+        <title>canopy climber</title>
+        <titleShort>Climber</titleShort>
+        <description>The canopy is another country up there, and nobody thinks about the ground. [PAWN_nameDef] came down rarely and walked strangely when forced to.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>2</Melee>
+            <Plants>2</Plants>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Child_Smoked_Fish_Child</defName>
+        <identifier>ESCP_Backstory_Bosmer_Child_Smoked_Fish_Child</identifier>
+        <slot>Childhood</slot>
+        <title>smoked-fish child</title>
+        <titleShort>Smoker's child</titleShort>
+        <description>Children from smokehouse families smell of it for life. [PAWN_nameDef] could tell cedar smoke from elm by the hair of whoever walked past, though neither was ever cut for it.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Cooking>4</Cooking>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Child_Thornroot_Gatherer</defName>
+        <identifier>ESCP_Backstory_Bosmer_Child_Thornroot_Gatherer</identifier>
+        <slot>Childhood</slot>
+        <title>thornroot gatherer</title>
+        <titleShort>Gatherer</titleShort>
+        <description>Only what the forest had already dropped could be gathered, and even that was disputed by elders. [PAWN_nameDef] collected fallen thornroot and argued the fine points.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>3</Plants>
+            <Medicine>1</Medicine>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Child_Hide_Boat_Rower</defName>
+        <identifier>ESCP_Backstory_Bosmer_Child_Hide_Boat_Rower</identifier>
+        <slot>Childhood</slot>
+        <title>hide-boat rower</title>
+        <titleShort>Rower</titleShort>
+        <description>Hide boats go down the Strid with the current and come back with effort. [PAWN_nameDef] pulled an oar from an age when most children were still dropping things.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Construction>2</Construction>
+            <Animals>1</Animals>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Child_Silvenars_Court_Child</defName>
+        <identifier>ESCP_Backstory_Bosmer_Child_Silvenars_Court_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Silvenar's court child</title>
+        <titleShort>Court child</titleShort>
+        <description>The Silvenar feels what the people feel, and the people felt a lot. Growing up in that court taught [PAWN_nameDef] to keep [PAWN_possessive] temper around the furniture.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>3</Social>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Child_Green_Ladys_Page</defName>
+        <identifier>ESCP_Backstory_Bosmer_Child_Green_Ladys_Page</identifier>
+        <slot>Childhood</slot>
+        <title>Green Lady's page</title>
+        <titleShort>Page</titleShort>
+        <description>Page to the Green Lady was a dangerous honor, as she tended to wrestle anyone close by. [PAWN_nameDef] survived the post with three cracked ribs and a good story.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>2</Melee>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Child_Poison_Dart_Child</defName>
+        <identifier>ESCP_Backstory_Bosmer_Child_Poison_Dart_Child</identifier>
+        <slot>Childhood</slot>
+        <title>poison-dart child</title>
+        <titleShort>Dart child</titleShort>
+        <description>Blowpipes are a child's toy until someone adds the venom. [PAWN_nameDef] brought down a monkey at seven and got a very stern talk about wasting good poison.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Medicine>1</Medicine>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Child_Camoran_Hanger_On</defName>
+        <identifier>ESCP_Backstory_Bosmer_Child_Camoran_Hanger_On</identifier>
+        <slot>Childhood</slot>
+        <title>Camoran hanger-on</title>
+        <titleShort>Hanger-on</titleShort>
+        <description>Everyone in Valenwood claims Camoran blood, and [PAWN_nameDef]'s family insisted on it. The title got them a seat at the far end of a very long table.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>2</Social>
+            <Melee>1</Melee>
+            <Shooting>1</Shooting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Child_Bosmer_Raised_By_Khajiit</defName>
+        <identifier>ESCP_Backstory_Bosmer_Child_Bosmer_Raised_By_Khajiit</identifier>
+        <slot>Childhood</slot>
+        <title>Bosmer raised by Khajiit</title>
+        <titleShort>Foster</titleShort>
+        <description>Khajiit caravans took in a lost elf child and pointed out a good sugar deal. [PAWN_nameDef] speaks with a slight purr, particularly after a drink.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>2</Social>
+            <Cooking>2</Cooking>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Child_Wild_Hunt_Witness</defName>
+        <identifier>ESCP_Backstory_Bosmer_Child_Wild_Hunt_Witness</identifier>
+        <slot>Childhood</slot>
+        <title>Wild Hunt witness</title>
+        <titleShort>Witness</titleShort>
+        <description>Elders called the Wild Hunt once, near [PAWN_nameDef]'s village. No one ever told the child the whole of what came through, but the villagers were different after.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>2</Melee>
+            <Medicine>2</Medicine>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Child_River_Trappers_Child</defName>
+        <identifier>ESCP_Backstory_Bosmer_Child_River_Trappers_Child</identifier>
+        <slot>Childhood</slot>
+        <title>river trapper's child</title>
+        <titleShort>Trapper's child</titleShort>
+        <description>Traps along the Xylo needed checking at first light. [PAWN_nameDef] came home with the catch, cold feet and, every so often, a very annoyed otter.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>2</Animals>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Child_Antler_Carver</defName>
+        <identifier>ESCP_Backstory_Bosmer_Child_Antler_Carver</identifier>
+        <slot>Childhood</slot>
+        <title>antler carver</title>
+        <titleShort>Carver</titleShort>
+        <description>Shed antler is the nearest thing in Valenwood to fine timber. [PAWN_nameDef] whittled spoons, combs and, after a dare, a very rude likeness of the treethane.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>3</Crafting>
+            <Artistic>1</Artistic>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Child_Storm_Orphaned_Child</defName>
+        <identifier>ESCP_Backstory_Bosmer_Child_Storm_Orphaned_Child</identifier>
+        <slot>Childhood</slot>
+        <title>storm-orphaned child</title>
+        <titleShort>Orphan</titleShort>
+        <description>High winds brought the family's platform down in one night. [PAWN_nameDef] was found clinging to a branch by morning and has never since slept near the edge.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>2</Plants>
+            <Cooking>1</Cooking>
+            <Melee>1</Melee>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Child_Wood_Orc_Neighbor</defName>
+        <identifier>ESCP_Backstory_Bosmer_Child_Wood_Orc_Neighbor</identifier>
+        <slot>Childhood</slot>
+        <title>Wood Orc neighbor</title>
+        <titleShort>Neighbor</titleShort>
+        <description>Wood Orcs farm in the deep parts of Malabal Tor and do not much care for visitors. Yet [PAWN_nameDef] went over to play for years, and nobody stopped it.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>3</Melee>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Child_Feast_Table_Server</defName>
+        <identifier>ESCP_Backstory_Bosmer_Child_Feast_Table_Server</identifier>
+        <slot>Childhood</slot>
+        <title>feast-table server</title>
+        <titleShort>Server</titleShort>
+        <description>At the end of a long feast, a server must tell the drunk from the dangerous. [PAWN_nameDef] grew skilled at this while carrying a heavy tray of ribs.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>2</Social>
+            <Cooking>2</Cooking>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Child_Rain_Catcher</defName>
+        <identifier>ESCP_Backstory_Bosmer_Child_Rain_Catcher</identifier>
+        <slot>Childhood</slot>
+        <title>rain-catcher</title>
+        <titleShort>Rain catcher</titleShort>
+        <description>Clean water comes down from the leaves if you set the hide right. [PAWN_nameDef] looked after the catch-skins of an entire platform village at ten years old.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Construction>2</Construction>
+            <Plants>2</Plants>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Child_Moth_Watcher</defName>
+        <identifier>ESCP_Backstory_Bosmer_Child_Moth_Watcher</identifier>
+        <slot>Childhood</slot>
+        <title>moth-watcher</title>
+        <titleShort>Moth watcher</titleShort>
+        <description>Silk moths gather at dusk near the great oaks. [PAWN_nameDef] drew them on scraps of hide and was told, kindly, to stop doing it during chores.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>2</Animals>
+            <Artistic>2</Artistic>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Child_Bone_Needle_Sewer</defName>
+        <identifier>ESCP_Backstory_Bosmer_Child_Bone_Needle_Sewer</identifier>
+        <slot>Childhood</slot>
+        <title>bone-needle sewer</title>
+        <titleShort>Sewer</titleShort>
+        <description>Everything in the household was stitched by hand with a needle that used to be part of something. [PAWN_nameDef] mended a whole village's leathers before age twelve.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>4</Crafting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Child_Dominion_School_Pupil</defName>
+        <identifier>ESCP_Backstory_Bosmer_Child_Dominion_School_Pupil</identifier>
+        <slot>Childhood</slot>
+        <title>Dominion school pupil</title>
+        <titleShort>Pupil</titleShort>
+        <description>Altmer teachers came to Valenwood after the treaty and were very kind about it. [PAWN_nameDef] sat in their class and learned to read, and to resent the kindness.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>3</Intellectual>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Child_Spinners_Tale_Carrier</defName>
+        <identifier>ESCP_Backstory_Bosmer_Child_Spinners_Tale_Carrier</identifier>
+        <slot>Childhood</slot>
+        <title>spinner's tale-carrier</title>
+        <titleShort>Tale-carrier</titleShort>
+        <description>A traveling spinner needed someone to hold the pack, and [PAWN_nameDef] needed to eat. Every tale in the Spinner's repertoire is still stuck in that memory.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>3</Social>
+            <Artistic>1</Artistic>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Child_Boar_Chaser</defName>
+        <identifier>ESCP_Backstory_Bosmer_Child_Boar_Chaser</identifier>
+        <slot>Childhood</slot>
+        <title>boar-chaser</title>
+        <titleShort>Boar chaser</titleShort>
+        <description>Hunting boar with a stick is the sort of plan a nine-year-old makes. [PAWN_nameDef] made it twice, and the second time, the boar had friends.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>2</Melee>
+            <Animals>2</Animals>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Child_Lost_At_Malabal_Tor</defName>
+        <identifier>ESCP_Backstory_Bosmer_Child_Lost_At_Malabal_Tor</identifier>
+        <slot>Childhood</slot>
+        <title>lost at Malabal Tor</title>
+        <titleShort>Lost</titleShort>
+        <description>A wrong turn left [PAWN_nameDef] alone in Malabal Tor for most of a month. A search party found the child fat, muddy and unwilling to come home.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>2</Plants>
+            <Shooting>2</Shooting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Child_Healers_Bag_Carrier</defName>
+        <identifier>ESCP_Backstory_Bosmer_Child_Healers_Bag_Carrier</identifier>
+        <slot>Childhood</slot>
+        <title>healer's bag carrier</title>
+        <titleShort>Bag carrier</titleShort>
+        <description>Herbs have to come from what has already fallen. The village healer took [PAWN_nameDef] along to carry what they found and to learn which ones were lying.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Medicine>3</Medicine>
+            <Plants>1</Plants>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Child_Rotmeth_Taster</defName>
+        <identifier>ESCP_Backstory_Bosmer_Child_Rotmeth_Taster</identifier>
+        <slot>Childhood</slot>
+        <title>rotmeth taster</title>
+        <titleShort>Taster</titleShort>
+        <description>A brewer's kid gets asked to taste, since children are honest and easily replaced. Fermented milk has never tasted quite right to [PAWN_nameDef] since.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Cooking>3</Cooking>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Valenwood_Sharpshooter</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Valenwood_Sharpshooter</identifier>
+        <slot>Adulthood</slot>
+        <title>Valenwood sharpshooter</title>
+        <titleShort>Sharpshooter</titleShort>
+        <description>There's an old claim that a Bosmer archer can shoot the eye from a flying hawk. [PAWN_nameDef] has done so twice, and only regrets missing the third.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>8</Shooting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Treetop_Ambusher</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Treetop_Ambusher</identifier>
+        <slot>Adulthood</slot>
+        <title>treetop ambusher</title>
+        <titleShort>Ambusher</titleShort>
+        <description>Armies crossing Valenwood tend to look at the road. [PAWN_nameDef] waited above it for days on end with a rope, a bow and a strip of dried rat.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>5</Shooting>
+            <Melee>3</Melee>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Imperial_Auxiliary</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Imperial_Auxiliary</identifier>
+        <slot>Adulthood</slot>
+        <title>Imperial auxiliary</title>
+        <titleShort>Auxiliary</titleShort>
+        <description>Legion scouts in the old Empire were often hired Bosmer, cheap and very good. [PAWN_nameDef] walked the whole width of Tamriel and collected about half the promised pay.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>5</Shooting>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Dominion_Spy_Archer</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Dominion_Spy_Archer</identifier>
+        <slot>Adulthood</slot>
+        <title>Dominion spy-archer</title>
+        <titleShort>Spy-archer</titleShort>
+        <description>Altmer give the speeches, but someone has to stand in the trees and look friendly. [PAWN_nameDef] served the Dominion that way, with a growing list of second thoughts.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>4</Shooting>
+            <Social>4</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Manes_Guard</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Manes_Guard</identifier>
+        <slot>Adulthood</slot>
+        <title>Mane's guard</title>
+        <titleShort>Guard</titleShort>
+        <description>The Mane was a Khajiit title, but Bosmer sellswords were cheap and did not gossip. [PAWN_nameDef] served at a Riverhold gate and collected a nice supply of moon sugar stories.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>5</Melee>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Camoran_Usurper_Veteran</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Camoran_Usurper_Veteran</identifier>
+        <slot>Adulthood</slot>
+        <title>Camoran Usurper veteran</title>
+        <titleShort>Usurper's veteran</titleShort>
+        <description>The Camoran Usurper had Daedra and an army of the angry. [PAWN_nameDef] marched with him to Hammerfell and walked home the long way once it all fell apart.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>5</Melee>
+            <Shooting>3</Shooting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Thalmor_Hunting_Partisan</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Thalmor_Hunting_Partisan</identifier>
+        <slot>Adulthood</slot>
+        <title>Thalmor-hunting partisan</title>
+        <titleShort>Partisan</titleShort>
+        <description>Not every Bosmer took the Dominion's offer. [PAWN_nameDef]'s band left Thalmor officers hanging in very picturesque places and vanished into the leaves.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>5</Shooting>
+            <Plants>2</Plants>
+            <Melee>1</Melee>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Southpoint_Marine</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Southpoint_Marine</identifier>
+        <slot>Adulthood</slot>
+        <title>Southpoint marine</title>
+        <titleShort>Marine</titleShort>
+        <description>Southpoint's small fleet fights mostly against pirates and bad weather. [PAWN_nameDef] served twelve years and has a good recipe for sea rat.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>4</Melee>
+            <Shooting>3</Shooting>
+            <Cooking>1</Cooking>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Bloodfall_Skirmisher</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Bloodfall_Skirmisher</identifier>
+        <slot>Adulthood</slot>
+        <title>Bloodfall skirmisher</title>
+        <titleShort>Skirmisher</titleShort>
+        <description>During the Khajiit border wars, nobody kept the tree line straight for long. [PAWN_nameDef] raided Elsweyr's cane fields and got raided back on the following moon.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>5</Melee>
+            <Animals>2</Animals>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Ayleid_Ruin_Guard</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Ayleid_Ruin_Guard</identifier>
+        <slot>Adulthood</slot>
+        <title>Ayleid ruin guard</title>
+        <titleShort>Ruin guard</titleShort>
+        <description>Old Ayleid ruins on Valenwood's edge attract treasure hunters, which is to say targets. [PAWN_nameDef] was paid to discourage them by whoever was currently paying.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>4</Melee>
+            <Shooting>3</Shooting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_War_Beast_Rider</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_War_Beast_Rider</identifier>
+        <slot>Adulthood</slot>
+        <title>war-beast rider</title>
+        <titleShort>Rider</titleShort>
+        <description>Bosmer don't often ride to war, but the deep clans will mount a senche if they're pushed. [PAWN_nameDef] stayed on one through an entire battle and could not walk for days.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>6</Animals>
+            <Melee>3</Melee>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Dart_Squad_Leader</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Dart_Squad_Leader</identifier>
+        <slot>Adulthood</slot>
+        <title>dart-squad leader</title>
+        <titleShort>Squad leader</titleShort>
+        <description>Darts tipped with the right frog can stop a man in full plate. [PAWN_nameDef] ran a small squad of these specialists and wore gloves at every meal.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>5</Shooting>
+            <Medicine>3</Medicine>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Bandit_Of_The_Strid</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Bandit_Of_The_Strid</identifier>
+        <slot>Adulthood</slot>
+        <title>bandit of the Strid</title>
+        <titleShort>Bandit</titleShort>
+        <description>River traffic has to pass the narrows somewhere. [PAWN_nameDef] made a good living taxing it, without the formality of a treethane's permission.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>4</Melee>
+            <Shooting>3</Shooting>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Silvenars_Listener</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Silvenars_Listener</identifier>
+        <slot>Adulthood</slot>
+        <title>Silvenar's listener</title>
+        <titleShort>Listener</titleShort>
+        <description>The Silvenar's guards also keep their ears open in taverns, since the mood of the people is a matter of state. [PAWN_nameDef] drank on duty as a matter of policy.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>4</Shooting>
+            <Social>4</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Skyrim_Sellsword</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Skyrim_Sellsword</identifier>
+        <slot>Adulthood</slot>
+        <title>Skyrim sellsword</title>
+        <titleShort>Sellsword</titleShort>
+        <description>Nords were always hiring and never quite comfortable with an elf at the table. [PAWN_nameDef] made a career in Skyrim out of being cold, underpaid and right about the wolves.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>4</Melee>
+            <Shooting>4</Shooting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Bow_Instructor</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Bow_Instructor</identifier>
+        <slot>Adulthood</slot>
+        <title>bow instructor</title>
+        <titleShort>Instructor</titleShort>
+        <description>Sons of Legion officers paid fine money to learn from a real Bosmer. [PAWN_nameDef] taught them what they could manage and kept the good tricks private.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>6</Shooting>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Spinner_Of_The_Deep_Wood</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Spinner_Of_The_Deep_Wood</identifier>
+        <slot>Adulthood</slot>
+        <title>Spinner of the deep wood</title>
+        <titleShort>Deep Spinner</titleShort>
+        <description>Far from any town, [PAWN_nameDef] went on telling the forest what it was. Eventually, the forest seemed to be telling a few things back.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>6</Social>
+            <Plants>2</Plants>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Green_Ladys_Handmaid</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Green_Ladys_Handmaid</identifier>
+        <slot>Adulthood</slot>
+        <title>Green Lady's handmaid</title>
+        <titleShort>Handmaid</titleShort>
+        <description>Every Silvenar has a Green Lady, and she needs someone to bandage what she breaks. [PAWN_nameDef] served in that post at Silvenar, with several minor injuries.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Medicine>4</Medicine>
+            <Melee>3</Melee>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Yffre_Priest</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Yffre_Priest</identifier>
+        <slot>Adulthood</slot>
+        <title>Y'ffre priest</title>
+        <titleShort>Priest</titleShort>
+        <description>Prayer at a shrine of Y'ffre involves mostly listening, and then telling everyone else what was heard. [PAWN_nameDef] was very good at the second part.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>5</Social>
+            <Plants>3</Plants>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Weather_Teller</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Weather_Teller</identifier>
+        <slot>Adulthood</slot>
+        <title>weather-teller</title>
+        <titleShort>Weather-teller</titleShort>
+        <description>Rain in the canopy will reach the forest floor hours after it begins. [PAWN_nameDef] told villages what was coming and how long until it got to them.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>5</Plants>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Bone_Charm_Seller</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Bone_Charm_Seller</identifier>
+        <slot>Adulthood</slot>
+        <title>bone charm seller</title>
+        <titleShort>Charm seller</titleShort>
+        <description>Charms cost little to make and sell well to the worried. [PAWN_nameDef] sold one against every illness going and believed in about a third of them.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>4</Crafting>
+            <Social>4</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Venom_Alchemist</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Venom_Alchemist</identifier>
+        <slot>Adulthood</slot>
+        <title>venom alchemist</title>
+        <titleShort>Venom alchemist</titleShort>
+        <description>Every venom is also a cure if you measure it properly. [PAWN_nameDef] tested the proportions on rats and later on a cousin with less luck.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Medicine>6</Medicine>
+            <Shooting>2</Shooting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Beast_Shape_Adept</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Beast_Shape_Adept</identifier>
+        <slot>Adulthood</slot>
+        <title>beast-shape adept</title>
+        <titleShort>Shapeshifter</titleShort>
+        <description>There is old magic in Valenwood that lets the body remember being something else. [PAWN_nameDef] learned the first form and still catches [PAWN_objective]self growling.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>5</Animals>
+            <Melee>3</Melee>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Wild_Hunt_Caller</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Wild_Hunt_Caller</identifier>
+        <slot>Adulthood</slot>
+        <title>Wild Hunt caller</title>
+        <titleShort>Hunt caller</titleShort>
+        <description>Calling the Wild Hunt is the last thing the Bosmer can do, and they do not get to choose what happens to them. [PAWN_nameDef] knows the words and hopes never to use them.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>4</Social>
+            <Melee>4</Melee>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Mages_Guild_Outcast</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Mages_Guild_Outcast</identifier>
+        <slot>Adulthood</slot>
+        <title>Mages Guild outcast</title>
+        <titleShort>Outcast</titleShort>
+        <description>Bosmer mages at the Guild were a novelty, kept near the door for visitors to look at. [PAWN_nameDef] learned everything possible and left with a stolen spellbook.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>6</Intellectual>
+            <Plants>2</Plants>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Root_Whisperer</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Root_Whisperer</identifier>
+        <slot>Adulthood</slot>
+        <title>root-whisperer</title>
+        <titleShort>Root-whisperer</titleShort>
+        <description>Roots of the graht-oak can be urged into new shapes if you're polite and patient. [PAWN_nameDef] once took ninety years to build a bridge, and no one has crossed it yet.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>7</Plants>
+            <Medicine>1</Medicine>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Ancestors_Voice</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Ancestors_Voice</identifier>
+        <slot>Adulthood</slot>
+        <title>ancestor's voice</title>
+        <titleShort>Ancestor's voice</titleShort>
+        <description>The dead of a Bosmer clan get eaten, and so they are never very far from the living. [PAWN_nameDef] speaks for them at funerals, to a very attentive audience.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>5</Social>
+            <Medicine>2</Medicine>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Mushroom_Tender</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Mushroom_Tender</identifier>
+        <slot>Adulthood</slot>
+        <title>mushroom tender</title>
+        <titleShort>Mushroom tender</titleShort>
+        <description>Fungus falls outside the Green Pact, according to most elders and against some others. [PAWN_nameDef] grew it in the dark, for food and for less honest purposes.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>5</Plants>
+            <Medicine>3</Medicine>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Healer_Of_Haven</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Healer_Of_Haven</identifier>
+        <slot>Adulthood</slot>
+        <title>healer of Haven</title>
+        <titleShort>Healer</titleShort>
+        <description>Haven's sailors came in with coughs, knife wounds and foreign rashes. [PAWN_nameDef] treated all three and often the same sailor for all of them.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Medicine>6</Medicine>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Forest_Ward_Setter</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Forest_Ward_Setter</identifier>
+        <slot>Adulthood</slot>
+        <title>forest ward-setter</title>
+        <titleShort>Ward-setter</titleShort>
+        <description>Paths that loop back on themselves are older than any Empire's maps. [PAWN_nameDef] knew how to set one, and how to shoot whatever figured it out anyway.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>4</Intellectual>
+            <Shooting>4</Shooting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Moon_Sugar_Mystic</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Moon_Sugar_Mystic</identifier>
+        <slot>Adulthood</slot>
+        <title>moon-sugar mystic</title>
+        <titleShort>Mystic</titleShort>
+        <description>A season among Khajiit mystics taught [PAWN_nameDef] a lot about Lunar Lattice, or possibly about moon sugar. Accounts from that year are difficult to reconcile.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>4</Social>
+            <Intellectual>2</Intellectual>
+            <Plants>2</Plants>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Bird_Speaker</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Bird_Speaker</identifier>
+        <slot>Adulthood</slot>
+        <title>bird-speaker</title>
+        <titleShort>Bird-speaker</titleShort>
+        <description>Crows carry news for anyone patient enough to feed them. [PAWN_nameDef] knew about the Dominion's approach long before the treethane did, and got no thanks for it.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>6</Animals>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Sinew_Rope_Maker</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Sinew_Rope_Maker</identifier>
+        <slot>Adulthood</slot>
+        <title>sinew-rope maker</title>
+        <titleShort>Rope maker</titleShort>
+        <description>Every platform in Valenwood hangs from ropes that used to be part of a big animal. [PAWN_nameDef] knew each strand and slept without worrying about them.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>6</Crafting>
+            <Construction>2</Construction>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Horn_Carver</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Horn_Carver</identifier>
+        <slot>Adulthood</slot>
+        <title>horn carver</title>
+        <titleShort>Horn carver</titleShort>
+        <description>Without timber, a Bosmer household gets its spoons and cups from whatever died most recently. [PAWN_nameDef] sold nicer ones than most.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>5</Crafting>
+            <Artistic>4</Artistic>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Platform_Builder</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Platform_Builder</identifier>
+        <slot>Adulthood</slot>
+        <title>platform builder</title>
+        <titleShort>Platform builder</titleShort>
+        <description>Tying a village to a live tree without breaking the Green Pact takes rope, and also lawyers. [PAWN_nameDef] worked up there for decades without losing anybody important.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Construction>7</Construction>
+            <Plants>1</Plants>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Butcher_Of_Woodhearth</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Butcher_Of_Woodhearth</identifier>
+        <slot>Adulthood</slot>
+        <title>butcher of Woodhearth</title>
+        <titleShort>Butcher</titleShort>
+        <description>There's no such thing as vegetarian anything in Woodhearth, so a butcher's shop is a place of some standing. [PAWN_nameDef] knew more anatomy than most physicians.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Cooking>6</Cooking>
+            <Medicine>2</Medicine>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Jagga_Brewer</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Jagga_Brewer</identifier>
+        <slot>Adulthood</slot>
+        <title>jagga brewer</title>
+        <titleShort>Brewer</titleShort>
+        <description>Fermented pig's milk is called jagga, and no one has ever praised it twice. [PAWN_nameDef] brewed the strongest in Grahtwood and drank it only in emergencies.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Cooking>7</Cooking>
+            <Animals>1</Animals>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Bone_House_Keeper</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Bone_House_Keeper</identifier>
+        <slot>Adulthood</slot>
+        <title>bone-house keeper</title>
+        <titleShort>Bone keeper</titleShort>
+        <description>The Bosmer use their dead, down to the buttons. [PAWN_nameDef] looked after the clan's bone-house and could say whose femur was being used for that tent pole.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>4</Crafting>
+            <Social>4</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Caravan_Guide</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Caravan_Guide</identifier>
+        <slot>Adulthood</slot>
+        <title>caravan guide</title>
+        <titleShort>Caravan guide</titleShort>
+        <description>Roads in Valenwood are mostly suggestions. Merchants paid [PAWN_nameDef] to walk ahead of their wagons and explain things to the locals before they got shot at.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>4</Animals>
+            <Social>4</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Tree_City_Census_Taker</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Tree_City_Census_Taker</identifier>
+        <slot>Adulthood</slot>
+        <title>tree-city census taker</title>
+        <titleShort>Census taker</titleShort>
+        <description>Dominion officials wanted to know how many Bosmer lived in Elden Root. [PAWN_nameDef] went from branch to branch and gave them a very generous estimate.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>4</Social>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Fur_Trapper</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Fur_Trapper</identifier>
+        <slot>Adulthood</slot>
+        <title>fur trapper</title>
+        <titleShort>Fur trapper</titleShort>
+        <description>Pelts from the north of Valenwood go down the Strid to foreign markets. [PAWN_nameDef] spent long seasons alone, and quite liked that part of the work.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>5</Animals>
+            <Crafting>3</Crafting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Wedding_Feast_Organizer</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Wedding_Feast_Organizer</identifier>
+        <slot>Adulthood</slot>
+        <title>wedding feast organizer</title>
+        <titleShort>Feast organizer</titleShort>
+        <description>Three days of feasting call for eleven animals and at least one fight. [PAWN_nameDef] planned for both and could get the fight over with before the second course.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Cooking>5</Cooking>
+            <Social>3</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Tavern_Fiddler</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Tavern_Fiddler</identifier>
+        <slot>Adulthood</slot>
+        <title>tavern fiddler</title>
+        <titleShort>Fiddler</titleShort>
+        <description>A fiddle strung with gut and bowed with horsehair is entirely legal under the Green Pact, provided the body's made of horn. [PAWN_nameDef] played one all around Grahtwood.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Artistic>7</Artistic>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Gossip_Of_Elden_Root</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Gossip_Of_Elden_Root</identifier>
+        <slot>Adulthood</slot>
+        <title>gossip of Elden Root</title>
+        <titleShort>Gossip</titleShort>
+        <description>Treethanes rise and fall on who's said what about whom. [PAWN_nameDef] sat at a good spot on the main branch and made sure of being asked first.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>7</Social>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Moss_Farmer</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Moss_Farmer</identifier>
+        <slot>Adulthood</slot>
+        <title>moss farmer</title>
+        <titleShort>Moss farmer</titleShort>
+        <description>Moss comes off without killing what it grows upon, or so [PAWN_nameDef]'s elders ruled. The result feeds a lot of animals and pays almost nothing.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>6</Plants>
+            <Cooking>2</Cooking>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Tattooist</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Tattooist</identifier>
+        <slot>Adulthood</slot>
+        <title>tattooist</title>
+        <titleShort>Tattooist</titleShort>
+        <description>Hunters want their kills recorded on the skin, and elders want their lineage. [PAWN_nameDef] worked by firelight with a bone needle and a very steady hand.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Artistic>6</Artistic>
+            <Medicine>2</Medicine>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Hog_Herder</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Hog_Herder</identifier>
+        <slot>Adulthood</slot>
+        <title>hog herder</title>
+        <titleShort>Hog herder</titleShort>
+        <description>Every Bosmer eats meat, and a lot of it starts with someone like [PAWN_nameDef]. Hogs in the deep wood are large and short on affection.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>7</Animals>
+            <Cooking>1</Cooking>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Silvenars_Accountant</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Silvenars_Accountant</identifier>
+        <slot>Adulthood</slot>
+        <title>Silvenar's accountant</title>
+        <titleShort>Accountant</titleShort>
+        <description>Nobody expects the court of the Silvenar to keep proper accounts. [PAWN_nameDef] did so, quietly, and knew precisely what the Dominion had really paid.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>6</Intellectual>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Retired_Thief</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Retired_Thief</identifier>
+        <slot>Adulthood</slot>
+        <title>retired thief</title>
+        <titleShort>Retired thief</titleShort>
+        <description>Baan Dar teaches that a clever thief will always find a way out. [PAWN_nameDef] found one at last, by retiring early and opening a respectable shop in Haven.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>4</Social>
+            <Melee>2</Melee>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Ferry_Keeper</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Ferry_Keeper</identifier>
+        <slot>Adulthood</slot>
+        <title>ferry keeper</title>
+        <titleShort>Ferry keeper</titleShort>
+        <description>A hide raft crosses the Xylo on a rope, whenever [PAWN_nameDef] finishes eating. People wait. There's no bridge for a good many miles, and the elders intend to keep it so.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Construction>3</Construction>
+            <Social>4</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Hide_Paper_Maker</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Hide_Paper_Maker</identifier>
+        <slot>Adulthood</slot>
+        <title>hide-paper maker</title>
+        <titleShort>Paper maker</titleShort>
+        <description>Paper from trees is a crime in Valenwood, so all the treethane's records go on scraped hide. [PAWN_nameDef] prepared it and read a fair amount of it as well.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>5</Crafting>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Dye_Beetle_Farmer</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Dye_Beetle_Farmer</identifier>
+        <slot>Adulthood</slot>
+        <title>dye-beetle farmer</title>
+        <titleShort>Beetle farmer</titleShort>
+        <description>Crushed beetles give a fine red, and the Green Pact raises no objection. [PAWN_nameDef] kept thousands of them, and they got into everything.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>4</Animals>
+            <Crafting>4</Crafting>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Falinesti_Porter</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Falinesti_Porter</identifier>
+        <slot>Adulthood</slot>
+        <title>Falinesti porter</title>
+        <titleShort>Porter</titleShort>
+        <description>Someone has to move everything every season when a city walks. [PAWN_nameDef] carried a lot of other people's belongings through a lot of wet Valenwood.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Construction>3</Construction>
+            <Animals>3</Animals>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Bosmer_Adult_Rat_Rancher</defName>
+        <identifier>ESCP_Backstory_Bosmer_Adult_Rat_Rancher</identifier>
+        <slot>Adulthood</slot>
+        <title>rat rancher</title>
+        <titleShort>Rat rancher</titleShort>
+        <description>Giant rats breed fast, eat anything and are not fussy about being eaten in return. [PAWN_nameDef] saw no shame in this trade, nor did the customers.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Bosmer_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>6</Animals>
+            <Cooking>2</Cooking>
+        </skillGains>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+    </BackstoryDef>
+
+</Defs>

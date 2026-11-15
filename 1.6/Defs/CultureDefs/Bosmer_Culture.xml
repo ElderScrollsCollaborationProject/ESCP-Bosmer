@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <CultureDef>
+        <defName>ESCP_Culture_Bosmer</defName>
+        <label>Bosmer</label>
+        <description>The culture of Valenwood's graht-oak towns, where stories are law, meat is dinner and nobody fells a tree. Bosmer are easygoing about almost everything except the few things that would horrify a guest.</description>
+        <iconPath>UI/Cultures/ESCP_Culture_Imperial</iconPath>
+        <pawnNameMaker>ESCP_Bosmer_Namer_Male</pawnNameMaker>
+        <pawnNameMakerFemale>ESCP_Bosmer_Namer_Female</pawnNameMakerFemale>
+        <allowedPlaceTags>
+            <li>OriginSpacer</li>
+        </allowedPlaceTags>
+        <styleItemTags>
+            <li>
+                <tag>NoBeard</tag>
+                <baseWeight>10</baseWeight>
+                <weightFactor>1</weightFactor>
+            </li>
+            <li>
+                <tag>Urban</tag>
+                <baseWeight>3</baseWeight>
+                <weightFactor>1</weightFactor>
+            </li>
+            <li>
+                <tag>NoTattoo</tag>
+                <baseWeight>10</baseWeight>
+                <weightFactor>1</weightFactor>
+            </li>
+        </styleItemTags>
+        <thingStyleCategories MayRequire="Ludeon.RimWorld.Ideology">
+            <li>
+                <category>Rustic</category>
+                <priority>2</priority>
+            </li>
+        </thingStyleCategories>
+        <ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">ESCP_NamerIdeo_Bosmer</ideoNameMaker>
+        <deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">ESCP_NamerDeity_Bosmer</deityNameMaker>
+        <deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">ESCP_DeityTypeMaker_Bosmer</deityTypeMaker>
+        <festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">ESCP_NamerFestival_Bosmer</festivalNameMaker>
+        <leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">ESCP_LeaderTitleMaker_Bosmer</leaderTitleMaker>
+    </CultureDef>
+
+    <StyleCategoryDef MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>ESCP_Style_Bosmer</defName>
+        <label>Bosmer</label>
+        <iconPath>UI/Cultures/ESCP_Culture_Imperial</iconPath>
+        <ritualVisualEffectDef>Rustic</ritualVisualEffectDef>
+        <thingDefStyles />
+    </StyleCategoryDef>
+
+    <RulePackDef>
+        <defName>ESCP_Bosmer_Namer_Male</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_name->[ESCP_Bosmer_Names_Male] [ESCP_Bosmer_Names_Last]</li>
+            </rulesStrings>
+            <rulesFiles>
+                <li>ESCP_Bosmer_Names_Male->Names/ESCP_Bosmer_Names_Male</li>
+                <li>ESCP_Bosmer_Names_Last->Names/ESCP_Bosmer_Names_Last</li>
+            </rulesFiles>
+        </rulePack>
+    </RulePackDef>
+
+    <RulePackDef>
+        <defName>ESCP_Bosmer_Namer_Female</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_name->[ESCP_Bosmer_Names_Female] [ESCP_Bosmer_Names_Last]</li>
+            </rulesStrings>
+            <rulesFiles>
+                <li>ESCP_Bosmer_Names_Female->Names/ESCP_Bosmer_Names_Female</li>
+                <li>ESCP_Bosmer_Names_Last->Names/ESCP_Bosmer_Names_Last</li>
+            </rulesFiles>
+        </rulePack>
+    </RulePackDef>
+
+    <RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>ESCP_LeaderTitleMaker_Bosmer</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_leaderTitle->Treethane</li>
+                <li>r_leaderTitle->Silvenar</li>
+                <li>r_leaderTitle->Green Lady</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+    <RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>ESCP_NamerIdeo_Bosmer</defName>
+        <include>
+            <li>GlobalUtility</li>
+        </include>
+        <rulePack>
+            <rulesStrings>
+                <li>hyphenPrefix->Jephre</li>
+                <li>hyphenPrefix->Green</li>
+                <li>hyphenPrefix->Root</li>
+                <li>hyphenPrefix->Wild</li>
+                <li>r_ideoName->The Green Pact</li>
+                <li>r_ideoName->Y'ffre's Word</li>
+                <li>r_ideoName->The Ooze Telling</li>
+                <li>r_ideoName->The Meat Mandate</li>
+                <li>r_ideoAdjective->Pact-bound</li>
+                <li>r_ideoAdjective->Green</li>
+                <li>r_memberName->Pactkeeper</li>
+                <li>r_memberName->Storyteller</li>
+                <li>r_memberName->Faithful</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+    <RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>ESCP_NamerDeity_Bosmer</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_deityName->Y'ffre</li>
+                <li>r_deityName->Auri-El</li>
+                <li>r_deityName->Baan Dar</li>
+                <li>r_deityName->Xarxes</li>
+                <li>r_deityName->Herma-Mora</li>
+                <li>r_deityName->Mara</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+    <RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>ESCP_DeityTypeMaker_Bosmer</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_deityType->Spirit of the Now and god of the forest</li>
+                <li>r_deityType->Time-Dragon of the elves</li>
+                <li>r_deityType->the Bandit God and Pariah</li>
+                <li>r_deityType->keeper of the gods' histories</li>
+                <li>r_deityType->the Woodland Man of the old stories</li>
+                <li>r_deityType->mother-goddess and love</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+    <RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>ESCP_NamerFestival_Bosmer</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_ritualName->[festivalName]</li>
+                <li>festivalName->The Wild Hunt Telling</li>
+                <li>festivalName->The Spinners' Night</li>
+                <li>festivalName->Y'ffre's Naming</li>
+                <li>festivalName->The Gathering at Falinesti</li>
+                <li>festivalName->Feast of the Mandate</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+</Defs>

@@ -69,4 +69,37 @@
         </definitions>
     </ESCP.Core.CharacterDef>
 
+    <ESCP.Core.CharacterDef>
+        <defName>ESCP_Character_GreenLady</defName>
+        <pawnKind>ESCP_Pawnkind_Bosmer_Elite</pawnKind>
+        <faction>ESCP_Faction_Court_Silvenar</faction>
+        <eras>
+            <li>2</li>
+        </eras>
+        <xenotype>ESCP_Xenotype_Bosmer</xenotype>
+        <definitions>
+            <li Class="ESCP.Core.CharacterStoryDefinition">
+                <firstName>Gwenaneth</firstName>
+                <lastName></lastName>
+                <nickname>the Green Lady</nickname>
+                <gender>Female</gender>
+                <age>40</age>
+            </li>
+            <li Class="ESCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(90, 60, 30)</hairColor>
+                <hairDef>Long</hairDef>
+                <headTypeDef>ESCP_HeadMer_Female_Average_Normal</headTypeDef>
+                <bodyTypeDef>Female</bodyTypeDef>
+            </li>
+            <li Class="ESCP.Core.CharacterTraitsDefinition">
+                <traits>
+                    <li>
+                        <key>Tough</key>
+                        <value>0</value>
+                    </li>
+                </traits>
+            </li>
+        </definitions>
+    </ESCP.Core.CharacterDef>
+
 </Defs>

@@ -27,6 +27,9 @@
             <li>
                 <li>Charity_Worthwhile</li>
             </li>
+            <li MayRequire="SirMashedPotato.Bloodmoon">
+                <li>Mashed_Bloodmoon_LycanthropeReviled</li>
+            </li>
         </requireOne>
     </MemeDef>
 

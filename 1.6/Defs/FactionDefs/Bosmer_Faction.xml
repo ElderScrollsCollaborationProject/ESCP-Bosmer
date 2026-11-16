@@ -178,6 +178,32 @@
                     <li>RandomDrop</li>
                 </arrivalModes>
             </li>
+            <li Class="ESCP.Factions.FactionExtension_NamedSettlement">
+                <settlementNames>
+                    <li>Falinesti</li>
+                    <li>Elden Root</li>
+                    <li>Woodhearth</li>
+                    <li>Greenheart</li>
+                    <li>Arenthia</li>
+                    <li>Silvenar</li>
+                </settlementNames>
+                <preferredHilliness />
+                <allowedBiomes>
+                    <li>TemperateForest</li>
+                    <li>TropicalRainforest</li>
+                </allowedBiomes>
+                <clustered>true</clustered>
+            </li>
+            <li Class="ESCP.Enlist.FactionEnlistOptions">
+                <enlistOptionsDefs>
+                    <li>ESCP_Enlistment_Treethanes</li>
+                </enlistOptionsDefs>
+            </li>
+            <li Class="ESCP.Ranks.FactionExtension_RankTracks">
+                <rankTracks>
+                    <li>ESCP_RankTrack_Treethanes</li>
+                </rankTracks>
+            </li>
         </modExtensions>
     </FactionDef>
 

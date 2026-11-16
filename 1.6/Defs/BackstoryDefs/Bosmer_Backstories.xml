@@ -1467,7 +1467,7 @@
         <slot>Adulthood</slot>
         <title>Ayleid ruin guard</title>
         <titleShort>Ruin guard</titleShort>
-        <description>Old Ayleid ruins on Valenwood's edge attract treasure hunters, which is to say targets. [PAWN_nameDef] was paid to discourage them by whoever was currently paying.</description>
+        <description>Old Ayleid ruins on Valenwood's edge attract treasure hunters. [PAWN_nameDef] was paid to run them off by whichever clan held the land that year.</description>
         <spawnCategories>
             <li>ESCP_Backstory_Bosmer_Military</li>
         </spawnCategories>
